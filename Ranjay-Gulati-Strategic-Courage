@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL;DR — ARTICLE TITLE HERE</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions h2 {
+            font-size: 1rem;
+            margin: 0 0 0.75rem 0;
+        }
+        
+        .instructions ol {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+        
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 2rem;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        
+        button:hover {
+            opacity: 0.85;
+        }
+        
+        .claude {
+            background: #d97706;
+            color: white;
+        }
+        
+        .chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+        
+        .gemini {
+            background: #4285f4;
+            color: white;
+        }
+        
+        .status {
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            display: none;
+        }
+        
+        .status.success {
+            display: block;
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .article-preview {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .article-preview summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .article-preview summary:hover {
+            color: #333;
+        }
+        
+        #article-content {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        #article-content a {
+            color: #2563eb;
+        }
+        
+        .back-link {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+        
+        .back-link a {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Strategy Leader's Craft</h1>
+    <p class="subtitle">TL;DR for: <strong>ARTICLE TITLE HERE</strong></p>
+    
+    <div class="instructions">
+        <h2>How this works</h2>
+        <ol>
+            <li>Click your preferred AI below</li>
+            <li>The article text is copied to your clipboard</li>
+            <li>A new tab opens — just paste (Ctrl+V / Cmd+V)</li>
+        </ol>
+    </div>
+    
+    <div class="buttons">
+        <button class="claude" onclick="copyAndOpen('claude')">Summarize with Claude</button>
+        <button class="chatgpt" onclick="copyAndOpen('chatgpt')">Summarize with ChatGPT</button>
+        <button class="gemini" onclick="copyAndOpen('gemini')">Summarize with Gemini</button>
+    </div>
+    
+    <div id="status" class="status"></div>
+    
+    <div class="article-preview">
+        <details>
+            <summary>View article text</summary>
+            <div id="article-content">
+                
+<!-- ARTICLE START -->
+
+<p>The role of the Chief Strategy Officer is uniquely demanding when it comes to courage. Strategy executives must summon personal courage to speak truth to power and advocate for bold moves. They must unlock courage in senior leaders facing genuine uncertainty. And they must build courage in their teams and across the organization, empowering people to own strategy out to the edge. This is a lot to ask of anyone, but likewise reflects the tremendous potential for impact of the role of a strategy leader.</p>
+<p><span>The concept of boldness has been central to much of McKinsey&rsquo;s research on strategy. For example,&nbsp;</span><em><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/strategy-beyond-the-hockey-stick" rel="nofollow ugc noopener">Strategy Beyond the Hockey Stick</a></em><span>showed that top outcomes on our&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-strategy-and-corporate-finance-blog/is-your-strategy-good-enough-to-move-you-up-on-the-power-curve" rel="nofollow ugc noopener">economic profit Power Curve</a><span>&nbsp;are dramatically more likely when companies make&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-strategy-and-corporate-finance-blog/bold-moves-are-less-risky-than-a-timid-corporate-strategy" rel="nofollow ugc noopener">bold enough strategic moves above certain thresholds</a><span>. Yet the&nbsp;</span><a href="https://www.youtube.com/watch?v=srFWdifYv3s" rel="nofollow ugc noopener">&ldquo;social side of strategy&rdquo;</a><span> &mdash; the politics, the consensus-seeking, the fear &mdash; often fights the ability to design and commit to them. My colleague,&nbsp;</span><a href="https://www.mckinsey.com/our-people/michael-birshan" rel="nofollow ugc noopener">Michael Birshan</a><span>, has also written about&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/strategic-courage-in-an-age-of-volatility" rel="nofollow ugc noopener">strategic courage</a><span>&nbsp;and the three edges required to see differently, commit decisively, and execute relentlessly on strategy when uncertainty, cognitive bias, and social dynamics tempt hesitation.</span></p>
+<p><span>This is why I was excited to read&nbsp;</span><a href="https://ranjaygulati.com/" rel="nofollow ugc noopener">Ranjay Gulati</a><span>&rsquo;s latest book,&nbsp;</span><em><a href="https://www.amazon.com/How-Be-Bold-Surprising-Everyday/dp/0063394812/ref=sr_1_1?crid=39BYE264GC2TF&dib=eyJ2IjoiMSJ9.N2WjPntb9M15OBK0Lm9IMDnDJpvraEfbWtrbceh9lmnpJ6DIy-Z4ERIcWdLkpFEZWVa2NOz5cY3LSIp0coAv4Fqgy_jvVwZxbK_rI8qtxBwFfXQAqCs22OEvVTNDd19yU-5Gomof918v2K6fTCajIQ5jkmo5KxgPX8WDnoogoUw1D9Ywd3FJL4O0Cj3-PYrwjmgECqw-Z1TFX0YC82IKZvYFYecxnDQL4tPuSS23u5A.ncDlynRUrrM1boj_pao7RJhkPeZV-EU8mSZue9s5JHs&dib_tag=se&keywords=how+to+be+bold&qid=1768560846&sprefix=how+to+be+bo%2Caps%2C201&sr=8-1" rel="nofollow ugc noopener">How to Be Bold: The Surprising Science of Everyday Courage</a></em><span>. Gulati is the Paul R. Lawrence MBA Class of 1942 Professor at Harvard Business School, has been ranked one of the ten most cited scholars in business and management, and is ranked #9 in&nbsp;</span><a href="https://www.linkedin.com/company/thinkers-50/" rel="nofollow ugc noopener">Thinkers50</a><span>&apos;s&nbsp;</span><a href="https://thinkers50.com/t50-ranking/" rel="nofollow ugc noopener">2025 ranking of global management scholars</a><span>. His framing of courage as a skill that can be built &mdash; not a trait you either have or don&rsquo;t &mdash; resonates with my experience. I was pleased that he agreed to discuss its implications for strategy executives with me.</span></p>
+<h3>The Intellectual Arc of Ranjay Gulati<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h3>
+<p>When I asked Gulati about the through-lines of his work, he offered a compelling framing:</p>
+<blockquote>
+    <p><span>&ldquo;I care about helping individuals and organizations perform&nbsp;</span><br><span>at their best&hellip; about unlocking their fullest potential.&rdquo;</span></p>
+</blockquote>
+<p><span>His early work focused on growth, both organic innovation and inorganic growth through alliances and acquisitions. His groundbreaking research on&nbsp;</span><a href="https://ranjaygulati.com/managing-network-resources/" rel="nofollow ugc noopener">network resources and alliances</a><span>established that competitive advantage lies not just in what you own, but what you can access through relationships.</span></p>
+<p><span>From there, he turned to customer centricity and discovered that the biggest barriers to growth were often internal, not external. This led to his work on&nbsp;</span><a href="https://hbr.org/2007/05/silo-busting-how-to-execute-on-the-promise-of-customer-focus" rel="nofollow ugc noopener">&ldquo;Silo Busting&rdquo;</a><span>&nbsp;and&nbsp;</span><em><a href="https://ranjaygulati.com/reorganize-for-resilience-2/" rel="nofollow ugc noopener">Reorganize for Resilience</a></em><span>.</span></p>
+<p><span>With former HBS Dean&nbsp;</span><a href="https://en.wikipedia.org/wiki/Nitin_Nohria" rel="nofollow ugc noopener">Nitin Nohria</a><span>, he established in&nbsp;</span><a href="https://journals.aom.org/doi/abs/10.5465/256998" rel="nofollow ugc noopener">&ldquo;Is Slack Good or Bad for Innovation&rdquo;</a><span>&nbsp;an inverse U-curve relationship between organizational slack and innovation, finding that too lean is fragile, too fat is complacent, and that a &ldquo;Goldilocks zone&rdquo; of just enough slack enables both resilience and experimentation.</span></p>
+<p><a href="https://journals.aom.org/doi/abs/10.5465/annals.2015.0125" rel="nofollow ugc noopener">His work on scaling</a><span>&nbsp;explored the mirror-image challenges companies face: startups wanting to professionalize without killing their soul, and large companies wanting startup-like agility without losing coherence. This led eventually to&nbsp;</span><em><a href="https://deeppurpose.net/" rel="nofollow ugc noopener">Deep Purpose</a></em><span>, showing how purpose can act as an operating system for navigating &ldquo;right vs. right&rdquo; trade-offs, and the discipline of what he calls &ldquo;practical idealism.&rdquo;</span></p>
+<p><span>Today, he teaches an exciting Harvard MBA course called&nbsp;</span><a href="https://www.hbs.edu/coursecatalog/1636.html" rel="nofollow ugc noopener">&ldquo;Turnarounds and Transformation,&rdquo;</a><span>&nbsp;focusing on &ldquo;the leader as a strategist, architect, decision maker, and change agent.&rdquo;</span></p>
+<p><span>His latest book,&nbsp;</span><em><a href="https://ranjaygulati.com/how-to-be-bold/" rel="nofollow ugc noopener">How to Be Bold</a></em><span>, asks:&nbsp;</span><em><strong>what enables leaders to act when action is hardest?</strong></em></p>
+<h3>How to Be Bold: The 9 C&rsquo;s of Courage<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h3>
+<p><span>Gulati&rsquo;s central argument in&nbsp;</span><em><a href="https://ranjaygulati.com/how-to-be-bold/" rel="nofollow ugc noopener">How to Be Bold</a></em><span>&nbsp;is that courage is a skill you can build. As he writes:</span></p>
+<blockquote>
+    <p>&ldquo;Courage is a learned behavior, not an innate one.&rdquo;</p>
+</blockquote>
+<p><span>The book presents a framework of nine resources &mdash; the &ldquo;9 C&rsquo;s&rdquo; &mdash; that individuals and organizations can cultivate to act boldly. The first six comprise the &ldquo;inner game&rdquo; of building personal courage:&nbsp;</span><em>Coping</em><span>&nbsp;with uncertainty by building reassuring narratives;&nbsp;</span><em>Confidence</em><span>&nbsp;through deep mastery that enables action under pressure;&nbsp;</span><em>Commitment</em><span>&nbsp;to goals framed as heroic, purpose-driven quests;&nbsp;</span><em>Connection</em><span>&nbsp;to a support squad that provides resources and candid feedback;&nbsp;</span><em>Comprehension</em><span>&nbsp;through acting your way toward clarity when reality becomes chaotic; and&nbsp;</span><em>Calm</em><span>&nbsp;through emotional regulation when fear threatens to hijack decision-making.</span></p>
+<p><span>The final three C&rsquo;s comprise the &ldquo;outer game&rdquo; of leading for courage:&nbsp;</span><em>Clan</em><span>, building collective identity so strong that people take risks on the group&rsquo;s behalf;&nbsp;</span><em>Charisma</em><span>, projecting leadership presence through learnable behaviors rather than innate traits; and&nbsp;</span><em>Culture</em><span>, designing organizations where courage becomes embedded in how people see themselves and their work.</span></p>
+<p>For strategy executives, I feel this framework is particularly useful because the role demands courage at all three levels &mdash; personal, interpersonal, and organizational. The CSO must summon courage to speak truth to power, unlock courage in senior leaders facing genuine uncertainty, and build courage across the organization so that strategy can be owned at the edge. Gulati&rsquo;s research suggests each of these is a capability that can be deliberately developed.</p>
+<h3>Our Conversation: Courage and the Craft of Strategy<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h3>
+<p>I spoke with Gulati about the connections between his research and the challenges strategy executives face. Four themes emerged.</p>
+<h4>1. High-quality strategy unlocks courage<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h4>
+<p>In my experience working with CSOs, those in organizations with poorly defined strategies &mdash; vague themes rather than real choices, for example &mdash; have to do enormous compensating work. They spend their time explaining, managing the byproducts of ambiguity, and fighting with organizational drift. In contrast, those with clear, choice-based strategies can focus on driving mobilization and further ambition.</p>
+<p>I believe great strategy itself creates the conditions for courage. I put this to Gulati.</p>
+<p>He agreed, and explained:</p>
+<blockquote>
+    <p>&ldquo;Having clarity of direction&hellip; is liberating. It liberates you to be able to make more bold, decisive choices &hellip; unconstrained optimization is highly problematic. Strategic choices constrain leaders and provide them a much more palatable way of thinking boldly about their own choices.&rdquo;</p>
+</blockquote>
+<p><span>This connects to his HBR piece&nbsp;</span><a href="https://hbr.org/2018/05/structure-thats-not-stifling" rel="nofollow ugc noopener">&ldquo;Structure That&rsquo;s Not Stifling&rdquo;</a><span>&nbsp;and the concept of &ldquo;freedom within a framework&rdquo; &mdash; drawn, interestingly, from parenting research. Optimal parents create guardrails that enable autonomy, not blanket freedom or total control. Strategy can do the same in organizations. As Gulati explained,</span></p>
+<blockquote>
+    <p>&ldquo;Strategy creates the clarity of your guardrails, creates freedom within a framework. Which in turn allows you to then double down.&rdquo;</p>
+</blockquote>
+<p><span>He illustrated this with cultural principles from Netflix: Freedom with responsibility, context not control (educate people about the strategy so they can make informed decisions, as I explained in&nbsp;</span><a href="https://whitneydzimmerman.substack.com/p/servant-leadership-and-strategy" rel="nofollow ugc noopener">Strategy and Servant Leadership</a><span>), and loosely coupled, tightly aligned. Principles like these can create an architecture for courage. When talented people understand the strategic choices that have been made, they can be trusted to make bold moves of their own.</span></p>
+<p><span>This also connects to Gulati&rsquo;s work on &ldquo;practical idealism&rdquo; in&nbsp;</span><em><a href="https://deeppurpose.net/" rel="nofollow ugc noopener">Deep Purpose</a></em><span>: making the imperfect choice today to survive for tomorrow requires courage. But it&rsquo;s easier to make that choice &mdash; and defend it &mdash; when a high-quality strategy provides a clear compass for navigating trade-offs.</span></p>
+<p>In a sense, while forcing hard choices with difficult trade-offs can be exceptionally difficult, understanding that doing so gives a gift of courage to the rest of the organization can help a top team find the courage to do so. This sort of courage loop can be powerful.</p>
+<p><strong>Takeaway for strategy leaders</strong></p>
+<p><span>If you want to unlock boldness across your organization, one of the first steps is building the courage to push for high-quality strategy and clear, coherent strategic choices. This is getting harder, and thus is growing more advantageous&mdash;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win" rel="nofollow ugc noopener">my research found the quality of strategy has dropped 40% over the last 15 years</a><span>, as measured by our&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/have-you-tested-your-strategy-lately" rel="nofollow ugc noopener">Ten Tests of Strategy</a><span>. The constraints created by true strategic choices can liberate courage downstream.&nbsp;</span></p>
+<p>This creates a virtuous courage loop: bold, clear strategy leads to successful change, which builds confidence, which enables further courage.</p>
+<h4>2. Strategy capabilities are the muscles for courage<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h4>
+<p><span>We discussed my research on&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win" rel="nofollow ugc noopener">&ldquo;How Strategy Champions Win,&rdquo;</a><span>which examined what differentiates companies that climb to top-quintile economic profit performance from those that fall to the bottom quintile, over five years. I shared my reflection that many of the most differentiated capabilities of these Strategy Champions &mdash; identifying and aligning on the most relevant trends, empowering the right leaders with clear targets and incentives, choosing and committing to a coherent set of moves, clearly documenting strategic assumptions for future testing, thinking boldly about the necessary scale of moves &mdash; require courage.</span></p>
+<p>Mobilization, in particular, is the &ldquo;missing middle of strategy&rdquo; in many organizations, and is where courage is often most critical. You can have the right analysis and make the right choices, but if you can&rsquo;t do the things to mobilize your organization &mdash; or even take the time to care about mobilization and not simply get impatient about execution progress &mdash; strategy will often not survive.</p>
+<p><span>The implication: building strategy capabilities&nbsp;</span><em>is</em><span>&nbsp;building courage capabilities at scale. As regular readers know, I advocate for strategy executives having an explicit, intentional agenda for developing their team&rsquo;s and organization&rsquo;s strategy capabilities, and this is a reason why.</span></p>
+<p><strong>Takeaway for strategy leaders</strong></p>
+<p>An annual strategy for building strategy capabilities is, in effect, an annual strategy for building and sustaining courage at scale. My research has found that Strategy Champions are twice as likely as Stragglers to have both annual budget and top team support for strategy-related capability building. If you&rsquo;re having trouble getting real support for strategy capability building, try reframing the case around investing in organizational courage.</p>
+<h4>3. The Strategy Leader&rsquo;s mandate<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h4>
+<p><span>My 2022 research found that&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-strategy-leaders-evolving-mandate" rel="nofollow ugc noopener">strategy functions with clear mandates from the CEO report significantly higher impact</a><span>: greater influence, more success, stronger relationships with the C-suite. Yet three-quarters of CSOs say they lack clarity on their mandate, and a third said they have no mandate at all.</span></p>
+<p>I shared two mandate examples with Gulati, and how they reflected a clear understanding of what their CEO felt their strategy needed from the strategy function, and how they were pointed about expecting the strategy function both to be courageous and unlock courage in others in strategically important ways.</p>
+<p>Getting such a mandate requires courage: engaging the CEO directly something other teams and functions often don&rsquo;t get airtime for. Gulati reframed why having a mandate matters in an insightful way:</p>
+<blockquote>
+    <p>&ldquo;A mandate is a guidepost into your narrative&hellip; Without a narrative you&rsquo;re nobody. You don&rsquo;t even know what to do yourself. You&rsquo;re confused. A mandate creates identity. And identity enables courage.&rdquo;</p>
+</blockquote>
+<p>What I particularly like about this framing is that it also reinforces why I find it valuable for CEOs to have a discussion on strategy&rsquo;s mandate every 6&ndash;18 months in their top team &mdash; more often than any other function. Often times, making progress on your strategy changes what you need from your strategy function.</p>
+<p>Having this conversation about what your strategy needs from a strategy function is a provocative and courageous one. It reinforces a shared narrative of what the latest, biggest challenges and opportunities facing the organization are. This kind of periodic, seemingly administrative conversation, actually fertilizes the ground for further courageous conversation and action, and ensures every knows why the strategy function may come calling.</p>
+<p><strong>Takeaway for strategy leaders</strong></p>
+<p><span>Getting a clear mandate requires courage. But having a mandate&nbsp;</span><em>enables</em><span>courage, creating the narrative and identity that make bold action easier. The mandate conversation is much more than an administrative exercise.</span></p>
+<h4>4. Slack, resilience, and the courage required<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h4>
+<p>I wanted to probe the connections between several threads in Gulati&rsquo;s research: the importance of a &ldquo;progressive&rdquo; posture in times of uncertainty; the role of organizational slack in enabling resilience and innovation; and the courage required of strategy leaders to advocate for both.</p>
+<p><span>Gulati&rsquo;s&nbsp;</span><a href="https://hbr.org/2010/03/roaring-out-of-recession" rel="nofollow ugc noopener">&ldquo;Roaring Out of Recession&rdquo;</a><span>&nbsp;research found that only 9% of companies emerged from the Great Recession stronger. Specifically, he found they were neither purely defensive (cutting to survive) nor purely aggressive (investing recklessly). They had a &ldquo;progressive posture&rdquo; &mdash; balancing pushes for operational efficiency with counter-cyclical investment. Interestingly, my first job out of college was at BMW in an engineering management development program funded because of exactly this posture.</span></p>
+<p>What enabled such progressive strategic postures? In our conversation, Gulati speculated that most &ldquo;probably had that posture&rdquo; going in: &ldquo;a mental model of not being intimidated or frozen by uncertainty&rdquo; plus &ldquo;a strong balance sheet&hellip; the horsepower and the dry powder.&rdquo;</p>
+<p>I noted that we&rsquo;re currently in a period of economic ambiguity &mdash; growth but uncertainty, potential bubble dynamics, potential recessionary dynamics, with the answer differing based on what (sub)sector you look at. A question for strategy executives is: how do you ensure the capacity for bold, progressive action before you need it?</p>
+<p>Gulati&rsquo;s answer:</p>
+<blockquote>
+    <p>&ldquo;You need to create the capacity for dry powder that will be available to you to deploy at will and at scale in these moments of uncertainty&rdquo;</p>
+</blockquote>
+<p>I pointed out that one reliable form of dry powder is organizational slack, from his research, that acts as a buffer enabling experimentation and resilience. But in the current environment, the elimination of slack is easy to prioritize.</p>
+<p>It&rsquo;s easier &mdash; and feels safer &mdash; to cut to the bone or let budgets drift than to actively maintain the Goldilocks level of slack that enables both efficiency and resilience. &ldquo;Dancing in the middle&rdquo; requires a strategy leader who can reframe slack not as waste but as a strategic investment.</p>
+<p><strong>Takeaway for strategy leaders</strong></p>
+<p>Advocating for slack in an efficiency-obsessed environment is courageous work. The strategy leader who frames slack as a strategic investment &mdash; capacity for innovation, resilience in downturns, dry powder for opportunities &mdash; is building the conditions for bold action. Grappling with how to get this right is especially urgent today.</p>
+<h3>The Strategy Leader as a Chief Courage Officer<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h3>
+<p>Gulati&rsquo;s work suggests that courage is not a personality trait but a set of resources &mdash; individual and organizational &mdash; that can be cultivated.</p>
+<p>This presents an interesting reframe of the job of the strategy leader. Part of the mandate can be to build the conditions for courage: through clear, choice-based strategy that creates &ldquo;freedom within a framework&rdquo;; through explicit capability-building focused on the muscles that underpin bold action; and through a mandate that creates narrative and identity. As Gulati put it:</p>
+<blockquote>
+    <p>&ldquo;An essential precursor for a strategist today is courage.&rdquo;</p>
+</blockquote>
+<p>The strategy leader can be, in effect, a Chief Courage Officer &mdash; someone whose job includes building the conditions in which courage becomes possible, both for themselves and across the organization.</p>
+<p>If you lead a strategy function, this is a good moment to ask whether courage-building should be more explicitly in focus, perhaps not for others to understand but for you to believe. The world will continue to be difficult to navigate &mdash; my research on Strategy Champions points out that peaks in uncertainty have been accelerating over the last 35 years. The strategy capabilities that drive top performance require and enable courage. They unlock a courage loop of sorts &mdash; understanding that courageous decisions can unlock courage across the organization can buttress the courage required to make them. As Gulati&rsquo;s research shows, courage is something anyone can cultivate and build. The question is what role you will play in that.</p>
+<h3>A note on the artwork<div>
+        <div>
+            <div><br></div><button tabindex="0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg></button>
+        </div>
+    </div>
+</h3>
+<div>
+    <figure><a target="_blank" href="https://substackcdn.com/image/fetch/$s_!Y-dL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg" rel="nofollow ugc noopener">
+            <div>
+                <source type="image/webp" srcset="https://substackcdn.com/image/fetch/$s_!Y-dL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg%20424w,%20https://substackcdn.com/image/fetch/$s_!Y-dL!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg%20848w,%20https://substackcdn.com/image/fetch/$s_!Y-dL!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg%201272w,%20https://substackcdn.com/image/fetch/$s_!Y-dL!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg%201456w" sizes="100vw"><img src="https://substackcdn.com/image/fetch/$s_!Y-dL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg" width="1000" height="1260" alt="" srcset="https://substackcdn.com/image/fetch/$s_!Y-dL!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Y-dL!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Y-dL!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Y-dL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c5702d4-c691-4834-a7fb-790c649f4692_1000x1260.jpeg 1456w" sizes="100vw">
+                <div>
+                    <div><button tabindex="0" type="button"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882"></path>
+                                </g>
+                            </svg></button></div>
+                </div>
+            </div>
+        </a>
+        <figcaption>Cigoli&rsquo;s drawing of Brunelleschi&rsquo;s Santa Maria del Fiore (Florence Cathedral), 1613</figcaption>
+    </figure>
+</div>
+<p><span>The image accompanying this post is Cigoli&rsquo;s cross-section of the dome of the Cathedral of Santa Maria del Fiore in Florence, designed by Filippo Brunelleschi and completed in 1436. Lodovico Cardi, known as Cigoli, was a late Renaissance painter and architect, and a close friend of Galileo, with whom he shared both a mathematics tutor and a commitment to grounding artistic vision in technical mastery. His drawing, now in the Uffizi, reflects serious study of&nbsp;</span><em>how</em><span>the structure was built. At 144 feet across, it was the largest dome constructed since antiquity. It was built without the temporary wooden scaffolding, called &ldquo;centering,&rdquo; that had supported every major dome and vault before it.</span></p>
+<p>According to Vasari, when the commission was still under debate, Brunelleschi proposed that whoever could make an egg stand on end should win, for that man would have the skills required for the job. After the other architects failed, Brunelleschi cracked the egg on its bottom and stood it upright. When they protested that they could have done the same, he replied that they could have built the dome too, had they seen his plans. It was a courageous move that reflected a courageous approach to creation.</p>
+<p>Brunelleschi&rsquo;s dome was designed to support its own weight and that of its builders as it was being constructed, over 16 years. Through an ingenious herringbone brick pattern and a system of embedded stone chains acting as tension rings, each course of masonry locked into the one before it. The dome held itself together through the act of construction itself.</p>
+<p>This is what Gulati&rsquo;s research suggests about strategic courage. Clear, choice-based strategy &mdash; what he called &ldquo;freedom within a framework&rdquo; &mdash; creates the conditions for courage at every level, not after the strategy is complete, but as it is being built. Each bold choice, properly designed and courageously made, supports the next. Commitment enables further commitment, just as each ring of Brunelleschi&rsquo;s bricks enabled the ring above it.</p>
+<div>
+    <figure><a target="_blank" href="https://substackcdn.com/image/fetch/$s_!0NUZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg" rel="nofollow ugc noopener">
+            <div>
+                <source type="image/webp" srcset="https://substackcdn.com/image/fetch/$s_!0NUZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg%20424w,%20https://substackcdn.com/image/fetch/$s_!0NUZ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg%20848w,%20https://substackcdn.com/image/fetch/$s_!0NUZ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg%201272w,%20https://substackcdn.com/image/fetch/$s_!0NUZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg%201456w" sizes="100vw"><img src="https://substackcdn.com/image/fetch/$s_!0NUZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg" width="1430" height="962" alt="" srcset="https://substackcdn.com/image/fetch/$s_!0NUZ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg 424w, https://substackcdn.com/image/fetch/$s_!0NUZ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg 848w, https://substackcdn.com/image/fetch/$s_!0NUZ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!0NUZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e543ec0-38bd-43f2-a001-13e0f84f76a9_1430x962.jpeg 1456w" sizes="100vw">
+                <div>
+                    <div><button tabindex="0" type="button"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882"></path>
+                                </g>
+                            </svg></button></div>
+                </div>
+            </div>
+        </a>
+        <figcaption>Il Duomo di Firenze, Gary Campbell-Hall</figcaption>
+    </figure>
+</div>
+<div>
+    <div>
+        <div><br></div>
+    </div>
+</div>
+<p><span>Or, subscribe on&nbsp;</span><a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7258844747895656448&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BIR%2FpnZd1R7yg1lue6hz6cw%3D%3D&" rel="nofollow ugc noopener">LinkedIn</a><span>&nbsp;or&nbsp;</span><a href="https://medium.com/@whitneyzim" rel="nofollow ugc noopener">Medium</a><span>&nbsp;if you prefer those platforms</span></p>
+<div>
+    <hr>
+</div>
+<p><strong>How to go deeper:</strong></p>
+<p><span>Ranjay&rsquo;s&nbsp;</span><a href="https://ranjaygulati.com/newsletter-podcast/" rel="nofollow ugc noopener">Leadership Unlocked newsletter</a><span>&nbsp;and of course his other writing, which you can find on&nbsp;</span><a href="https://ranjaygulati.com/" rel="nofollow ugc noopener">his website</a></p>
+<p>My past posts, related to each his 9 C&rsquo;s:</p>
+<ul>
+    <li>
+        <p><span>Coping:&nbsp;</span><em>Strategy Leadership in the Face of Uncertainty</em></p>
+    </li>
+    <li>
+        <p><span>Confidence:&nbsp;</span><em>Strategy is Still a Craft</em></p>
+    </li>
+    <li>
+        <p><span>Commitment:&nbsp;</span><em>Strategy is About Choices, The Meaning of Strategy</em></p>
+    </li>
+    <li>
+        <p><span>Connection:&nbsp;</span><em>Uncertainty Natives and Shifting Perspectives</em></p>
+    </li>
+    <li>
+        <p><span>Comprehension:&nbsp;</span><em>Francis J. Gavin&rsquo;s Thinking Historically and the Strategy Method, Choudary&rsquo;s Reshuffle and the Strategy Method</em></p>
+    </li>
+    <li>
+        <p><span>Calm:&nbsp;</span><em>Strategy Beyond Great Waves</em></p>
+    </li>
+    <li>
+        <p><span>Clan:&nbsp;</span><em>The Root of Strategy, Talking Strategy (Mobilization)</em></p>
+    </li>
+    <li>
+        <p><span>Charisma:&nbsp;</span><em>Strategy and Servant Leadership</em></p>
+    </li>
+    <li>
+        <p><span>Culture:&nbsp;</span><em>The Study of Strategic Culture, Strategy at the Edge: Charles Conn &amp; Rob McLean on Staying Sharp in the Age of AI</em></p>
+    </li>
+</ul>
+<div style="bottom: 10px; right: 10px; position: absolute;"><a href="https://signatureforemail.com/?utm_source=wth_free_link&utm_medium=external" target="_blank" style="font-size:11px; color: #d0d0d0;">Professional Email Signature</a></p>
+
+
+<!-- ARTICLE HTML END -->
+
+            </div>
+        </details>
+    </div>
+    
+    <div class="back-link">
+        <a href="LINK_TO_ORIGINAL_ARTICLE">← Read the original article</a>
+    </div>
+    
+    <script>
+        function getArticleTextWithLinks() {
+            const content = document.getElementById('article-content').cloneNode(true);
+            
+            // Convert links to "text (url)" format
+            const links = content.querySelectorAll('a');
+            links.forEach(link => {
+                const url = link.href;
+                const text = link.textContent;
+                // Only add URL if it's different from the text (not already a bare URL)
+                if (url && !text.includes(url)) {
+                    link.replaceWith(`${text} (${url})`);
+                }
+            });
+            
+            // Get text content, preserving paragraph breaks
+            const paragraphs = content.querySelectorAll('p, h1, h2, h3, h4, li');
+            let text = '';
+            
+            if (paragraphs.length > 0) {
+                paragraphs.forEach(p => {
+                    text += p.textContent.trim() + '\n\n';
+                });
+            } else {
+                text = content.textContent;
+            }
+            
+            return text.trim();
+        }
+        
+        function copyAndOpen(service) {
+            const articleText = getArticleTextWithLinks();
+            const prompt = `Please provide a comprehensive summary of the following article. Preserve the key insights and main arguments. If there are URLs in the text, you may access them for additional context if needed.\n\n---\n\n${articleText}`;
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(prompt).then(() => {
+                // Show success message
+                const status = document.getElementById('status');
+                status.className = 'status success';
+                status.textContent = '✓ Copied to clipboard! Paste in the new tab.';
+                
+                // Open the appropriate service
+                const urls = {
+                    claude: 'https://claude.ai/new',
+                    chatgpt: 'https://chat.openai.com/',
+                    gemini: 'https://gemini.google.com/app'
+                };
+                
+                window.open(urls[service], '_blank');
+            }).catch(err => {
+                alert('Could not copy to clipboard. Please try again.');
+                console.error(err);
+            });
+        }
+    </script>
+</body>
+</html>
