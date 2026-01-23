@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL;LC — Francis J. Gavin's Thinking Historically and the Building Blocks of Strategy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions h2 {
+            font-size: 1rem;
+            margin: 0 0 0.75rem 0;
+        }
+        
+        .instructions ol {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+        
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 2rem;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        
+        button:hover {
+            opacity: 0.85;
+        }
+        
+        .claude {
+            background: #d97706;
+            color: white;
+        }
+        
+        .chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+        
+        .gemini {
+            background: #4285f4;
+            color: white;
+        }
+        
+        .status {
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            display: none;
+        }
+        
+        .status.success {
+            display: block;
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .article-preview {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .article-preview summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .article-preview summary:hover {
+            color: #333;
+        }
+        
+        #article-content {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        #article-content a {
+            color: #2563eb;
+        }
+        
+        .back-link {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+        
+        .back-link a {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Strategy Leader's Craft</h1>
+    <p class="subtitle">TL;LC (Too Long; Let's Chat) for: <strong>Francis J. Gavin's Thinking Historically and the Building Blocks of Strategy</strong></p>
+    
+    <div class="instructions">
+        <h2>How this works</h2>
+        <ol>
+            <li>Click your preferred AI below</li>
+            <li>The article text is copied to your clipboard</li>
+            <li>A new tab opens — just paste (Ctrl+V / Cmd+V)</li>
+        </ol>
+    </div>
+    
+    <div class="buttons">
+        <button class="claude" onclick="copyAndOpen('claude')">Use Claude</button>
+        <button class="gemini" onclick="copyAndOpen('gemini')">Use Gemini</button>
+        <button class="chatgpt" onclick="copyAndOpen('chatgpt')">Use ChatGPT</button>
+    </div>
+    
+    <div id="status" class="status"></div>
+    
+    <div class="article-preview">
+        <details>
+            <summary>View article text</summary>
+            <div id="article-content">
+                
+<!-- ARTICLE START -->
+
+<div style='text-align: start;color: unset;font-size: 19px;font-family: system-ui, -apple-system, BlinkMacSystemFont, "'>
+    <div style="color: #fff;">
+        <div style="color: #fff;">
+            <div style="color: #fff;"><a href="https://whitneydzimmerman.substack.com/p/strategy-book-breakdown-francis-j" target="_blank" style="color: unset;font-size: 36px;font-family: var(--font-family-title);">Strategy Book Breakdown: Francis J. Gavin&apos;s Thinking Historically and the Strategy Method</a></div>
+        </div>
+        <div style="color: #fff;">
+            <div style="color: #fff;">
+                <div style="color: #fff;">
+                    <div style="color: #fff;"><br></div>
+                </div>
+            </div>
+            <div style="color: #fff;">
+                <div style="color: #fff;font-size: 11px;font-family: var(--font-family-meta);"><span style="color: #fff;"><a href="https://substack.com/@whitneydzimmerman" style="color: unset;">WHITNEY D. ZIMMERMAN</a></span></div>
+                <div style="color: #fff;">
+                    <div style="color: #fff;font-size: 11px;font-family: var(--font-family-meta);">JAN 05, 2026</div>
+                </div>
+            </div>
+        </div>
+        <hr style="color: var(--color-utility-detail);background-color: var(--color-utility-detail);border: 0px;">
+    </div>
+</div>
+<div style='text-align: start;color: color(display-p3 0.212 0.216 0.216);font-size: 19px;font-family: system-ui, -apple-system, BlinkMacSystemFont, "'>
+    <div style="color: #fff;font-family: var(--font-family-serif);">
+        <div dir="auto" style="color: #fff;">
+            <div style="color: #fff;">
+                <figure style="color: #fff;"><a target="_blank" href="https://substackcdn.com/image/fetch/$s_!hmAS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg" rel="nofollow ugc noopener" style="color: unset;border: 0px;">
+                        <div style="color: #fff;">
+                            <source type="image/webp" srcset="https://substackcdn.com/image/fetch/$s_!hmAS!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg%20424w,%20https://substackcdn.com/image/fetch/$s_!hmAS!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg%20848w,%20https://substackcdn.com/image/fetch/$s_!hmAS!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg%201272w,%20https://substackcdn.com/image/fetch/$s_!hmAS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg%201456w" sizes="100vw" style="color: #fff;"><img src="https://substackcdn.com/image/fetch/$s_!hmAS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg" width="904" height="598" alt="" srcset="https://substackcdn.com/image/fetch/$s_!hmAS!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg 424w, https://substackcdn.com/image/fetch/$s_!hmAS!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg 848w, https://substackcdn.com/image/fetch/$s_!hmAS!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!hmAS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f1538d-fc3a-4581-a364-ba35695c039f_904x598.jpeg 1456w" sizes="100vw" style="color: rgb(255, 255, 255);">
+                            <div style="color: #fff;">
+                                <div style="color: #fff;"><button tabindex="0" type="button" style="color: #fff;border: 0px;"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882"></path>
+                                            </g>
+                                        </svg></button></div>
+                            </div>
+                        </div>
+                    </a>
+                    <figcaption style="text-align: center;color: var(--color-fg-secondary);font-size: calc(var(--font-size-14) + var(--font_size_body_offset, 0px));font-family: var(--font-family-serif);">J. W. M. Turner, Lecture Diagram 66: Perspective construction of the interior of a prison (c. 1810), Tate Britain</figcaption>
+                </figure>
+            </div>
+            <p style="color: var(--color-fg-primary);">Something interesting is happening with business history. Google Trends shows that search interest in &ldquo;business history&rdquo; jumped more than 10X by the end of 2025 compared to the average monthly interest in the two decades prior.</p>
+            <p style="color: var(--color-fg-primary);">This makes intuitive sense. In times of significant change, people look to the past to help navigate the future. The popularity of podcasts like Acquired and Founders reflects this appetite. Both focus on what we can learn from business history, and both are built on genuinely high-quality historical work. Their success is well deserved.</p>
+            <p style="color: var(--color-fg-primary);">However, I think there&rsquo;s more going on here, related, unsurprisingly, to GenAI. Conversational AI tools, and deep research and agents in particular, are making historical inquiry more accessible. This is, naturally, a good thing. Charlie Munger said &ldquo;there is no better teacher than history in determining the future. There are answers worth billions of dollars in a $30 history book.&rdquo;</p>
+            <p style="color: var(--color-fg-primary);">But there are three big watch-outs for strategists. The first is that amateur historical inquiry is easily biased and flawed &mdash; GenAI has not really changed this. The second is that GenAI is making the same level of historical inquiry more broadly accessible, and thus less strategically useful. And finally, GenAI&rsquo;s &lsquo;veneer of intelligence&rsquo; means it&rsquo;s becoming ever easier to write, act, and sincerely feel like a historical expert.</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">This is where&nbsp;</span><a href="https://kissinger.sais.jhu.edu/people/gavin/" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Professor Francis Gavin</a><span style="color: #fff;">&rsquo;s new book,&nbsp;</span><a href="https://www.amazon.com/Thinking-Historically-Guide-Statecraft-Strategy/dp/0300278365/ref=sr_1_1?crid=3TXF0UM8VDXDM&dib=eyJ2IjoiMSJ9.pzy-Pf1PnhsAqj1avusfNcM4SVvPdyfJp30hJpHOiU3ewbovcKOemw24Hz9jPfBB6I2knte0wWXXVMIwYOp5q1UVX4sRNZdbxEd3Q8dA3nPsWc7gGd2SdN0qXg0V44bNXbzGwwqmhYedbbUg77427MRHQ9jAlCvHfFZJI9OrPYzUIwotBdeeeFy40JFcZlaBxbd82n7N27nMGNueObl52bEW2qfQQDNcyhejQhx9QUc.hn0n6n5UV8wHUjp6OgIT1mWnM2Ji_rNQaQT0HIm6RCs&dib_tag=se&keywords=thinking+historically&qid=1767388433&sprefix=thinking+historicall%2Caps%2C220&sr=8-1" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Thinking Historically: A Guide to Statecraft and Strategy</a><span style="color: #fff;">, comes in. Gavin is a historian and inaugural director of the Henry A. Kissinger Center for Global Affairs at the Johns Hopkins School of Advanced International Studies.</span></p>
+            <p style="color: var(--color-fg-primary);">Gavin&rsquo;s framework addresses all three watch-outs. It provides discipline against the bias and flaws that plague amateur inquiry. It offers tools sophisticated enough to remain strategically differentiating even as basic historical analysis becomes commoditized. And it makes clear just how far surface-level historical fluency is from genuine historical thinking.</p>
+            <p style="color: var(--color-fg-primary);">He wrote Thinking Historically for policymakers navigating geopolitics and to encourage historians to expand their horizons of impact. But the lessons translate directly to corporate strategy. Both domains involve consequential choices under radical uncertainty about the future. Both suffer when historical thinking is done poorly.</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">I am married to a professional historian, and believe the growing interest in and accessibility of historical inquiry is ultimately a great thing. But as they say, with great power comes great responsibility. So, in this post &mdash; my second strategy book breakdown, following my earlier piece on Choudary&rsquo;s&nbsp;</span><a href="https://substack.com/home/post/p-172360623" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Reshuffle</a><span style="color: #fff;"> &mdash; I want to explore what Gavin&rsquo;s insights offer strategists interested in leveraging history more effectively and how to apply them.</span></p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">The Book and Its Context<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">Gavin isn&rsquo;t the first to help practitioners use history better. Richard Neustadt and Ernest May&rsquo;s&nbsp;</span><a href="https://www.amazon.com/Thinking-Time-Uses-History-Decision-Makers/dp/0029227917/ref=sr_1_1?crid=2QCO5J1DZYC0A&dib=eyJ2IjoiMSJ9.ok1AcSHr48fUZwNra1zYZ9pwUrPlqVPQCuew1EpR3hBK_pkP_FBOTZZL4wQZjfwZKqxM9UV8IftPkDaFz02GnvmYZWPe5pab3ZnNV87h6HqAGsQhhxIDnBAnWuYjXNWPBwxt48vMB7GycK9N-X4znVebJXifF4itKNN7MpajjQM9YR-49uIECXc9M6kky6638skkEqMxFdqp6QxEzsVEaW5vBDle7K8tAGqtlxXdOvg.pP758W3Y4LcoDKxkVMTycHNAV_FYM5XfkQIIKj975i0&dib_tag=se&keywords=thinking+in+time&qid=1767389416&sprefix=thinking+in+t%2Caps%2C214&sr=8-1" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Thinking in Time</a><span style="color: #fff;">&nbsp;(1986) was a landmark, teaching a generation of policymakers at Harvard&rsquo;s Kennedy School how to avoid the misuse of historical analogies. More recently, Graham Allison and Niall Ferguson have called for a&nbsp;</span><a href="https://www.belfercenter.org/publication/why-president-needs-council-historians" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">White House Council of Historical Advisers</a><span style="color: #fff;">&nbsp;to bring applied history into government decision-making.</span></p>
+            <p style="color: var(--color-fg-primary);">Gavin builds quite boldly on this while offering something distinctive: a clear articulation of what &ldquo;historical sensibility&rdquo; actually means, and a practical twelve-question checklist that translates that sensibility into disciplined inquiry. His core argument is that thinking historically is a way of processing complexity, ambiguity, and causality that improves decision-making under uncertainty.</p>
+            <p style="color: var(--color-fg-primary);">That&rsquo;s exactly what strategy requiresm, and the stakes are high. As Gavin warns, &ldquo;In less scrupulous hands, the past may be mined for any answer, any justification, any cause.&rdquo;</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">I find it helpful to consider how Gavin&rsquo;s concepts map to&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">McKinsey&rsquo;s Strategy Method</a><span style="color: #fff;">, a set of twelve modular building blocks of strategy design, mobilization, and execution that I helped design and led research into. In what follows, I&rsquo;ll focus mainly on the strategy design phase, drawing on our recent research into the capabilities that most differentiate &ldquo;Strategy Champions&rdquo; &mdash; companies that climb to or stay in the top 20% of economic profit earners globally over five years.</span></p>
+            <p style="color: var(--color-fg-primary);">These building blocks don&rsquo;t reflect a rigid sequential process. They reflect fundamental parts of strategy that should not be forgotten, but can be approached in various ways depending on your situation.</p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Applying Thinking Historically in Strategy Design<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <h4 style="color: var(--color-fg-primary);font-size: 1.125em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Align on Your Strategic Challenge<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h4>
+            <p style="color: var(--color-fg-primary);">Strength in this building block is one of the biggest differentiators of Strategy Champions, especially under higher environmental uncertainty. Aligning on the strategic challenge requires framing the right questions, identifying the trends that matter, challenging sacred cows, and setting a calibrated aspiration. Two lessons from Gavin can sharpen this work.</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Start the timeline in the right place.</strong><span style="color: #fff;">&nbsp;Gavin argues that we often misunderstand current challenges because we begin the story too recently. Before debating where to go, trace the deep causal roots of your situation &mdash; not just recent symptoms.</span></p>
+            <p style="color: var(--color-fg-primary);">This is what he calls &ldquo;vertical history&rdquo;: establishing the chronology to reveal agency and causality. When did this really begin? What forces set it in motion? Starting the timeline wrong means solving for noise rather than structural shifts. If you think your competitive challenge began with a rival&rsquo;s product launch last year, you might respond tactically. If you trace it to a decade-long shift in customer expectations or technology economics, your response will be different.</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Challenge whether industry rules are laws or artifacts.</strong><span style="color: #fff;">&nbsp;Gavin warns against dogma and fixed thinking. Concepts we take for granted &mdash; how our industry works, what customers value, who competitors are &mdash; are historical constructs, not immutable truths. They emerged at a particular time, under particular circumstances. They can change.</span></p>
+            <p style="color: var(--color-fg-primary);">When challenging &lsquo;sacred cows&rsquo;, ask: Is this a permanent law of nature, or a historical artifact about to expire? Industries have &ldquo;rules&rdquo; only until they don&rsquo;t.</p>
+            <h4 style="color: var(--color-fg-primary);font-size: 1.125em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Assess the Business Through Multiple Lenses<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h4>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">Our&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Strategy Champions research</a><span style="color: #fff;">&nbsp;found that outperforming companies facing higher uncertainty are more likely to excel at understanding market scenarios and opportunities. Gavin&rsquo;s concepts provide useful diagnostic lenses.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Understand stakeholders within their own worldviews.</strong><span style="color: #fff;">&nbsp;Gavin emphasizes what he calls &ldquo;empathy&rdquo; &mdash; not sentiment, but the ability to understand competitors, regulators, and partners on their own terms, shaped by their own histories. This is similar to&nbsp;</span><a href="https://substack.com/home/post/p-167175244" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">the study of geopolitical strategic culture I previously wrote about</a><span style="color: #fff;">. As he writes,</span></p>
+            <blockquote style="color: #fff;border-left: var(--size-4) solid var(--background_pop);">
+                <p style="color: var(--color-fg-primary);"><em style="color: #fff;">&ldquo;A historical sensibility, by identifying and reflecting upon what changes over time and what does not, generates a critical empathy that allows for a richer understanding of why people and nations made the choices they did.&rdquo;</em></p>
+            </blockquote>
+            <p style="color: var(--color-fg-primary);">When assessing beyond-market forces, don&rsquo;t assume actors will behave like rational economic agents defined by your spreadsheet. They&rsquo;re operating from their own historical frame, with their own constraints and aspirations. A Chinese regulator, a European competitor, a supplier who remembers past downturns &mdash; each sees your market differently. Understanding their perspective is an essential source of insight.</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Distinguish blips from structural shifts.</strong><span style="color: #fff;">&nbsp;Gavin warns against what he calls the &ldquo;New York Times problem&rdquo; &mdash; getting distracted by dramatic events that may not matter in the long run. When assessing competitive dynamics, use what he calls &ldquo;chronological proportionality.&rdquo; Is this development a fleeting advantage or a deep structural shift?</span></p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">The strategic response differs dramatically. Most organizations overweight the recent and dramatic. A historical sensibility helps you&nbsp;</span><a href="https://substack.com/home/post/p-160376249" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">look beyond great waves</a><span style="color: #fff;">&nbsp;and ask: How will this look in five business cycles? Is this noise, or is this signal?</span></p>
+            <h4 style="color: var(--color-fg-primary);font-size: 1.125em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Explore Value-Creating Strategic Moves<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h4>
+            <p style="color: var(--color-fg-primary);">Imagining and exploring strategic moves requires both creativity and rigor. Gavin&rsquo;s concepts expand what you can see.</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Imagine different pasts to imagine different futures.</strong><span style="color: #fff;">&nbsp;Gavin argues that counterfactual reasoning &mdash; rigorously asking &ldquo;what if X had happened differently?&rdquo; &mdash; stretches the mental elasticity needed to see a wider range of strategic options. If you can only extrapolate linearly from the present, your moves will be incremental.</span></p>
+            <p style="color: var(--color-fg-primary);">By asking what would have had to be true for a radically different outcome to have emerged in the past, you practice the skill of imagining genuinely different futures. What if mobile had developed differently? What if the 2008 crisis hadn&rsquo;t happened? What would our industry look like &mdash; and what does that tell us about the contingency of the current structure?</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Use historical analogies rigorously &mdash; or don&rsquo;t use them at all.</strong><span style="color: #fff;">Strategists constantly reach for analogies,&nbsp;</span><a href="https://rogermartin.medium.com/exploiting-analogy-501e531f93ec" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">and for good reason</a><span style="color: #fff;">. They are powerful. Gavin prescribes a discipline: probe differences as much as similarities. Ask whether the causal history and surrounding context are actually comparable.</span></p>
+            <p style="color: var(--color-fg-primary);">He points out that we often assume consensus on what historical events mean when no such consensus exists. The dot-com bust, &ldquo;disruption,&rdquo; the lessons of failed competitors &mdash; these are invoked constantly, often poorly. Lazy analogies create false confidence, and that is where my second watch-out bites hardest. When everyone has access to the same historical analogies through the same AI tools, the analogies themselves provide no advantage.</p>
+            <p style="color: var(--color-fg-primary);">The advantage lies in the rigor of application &mdash; probing differences as carefully as similarities, understanding the contested interpretations beneath seemingly settled events.</p>
+            <h4 style="color: var(--color-fg-primary);font-size: 1.125em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Commit to a Bold Strategy<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h4>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">Our Strategy Champions research found strengths in the Commit building block to be the biggest differentiator across the twelve building blocks of strategy.&nbsp;</span><a href="https://www.linkedin.com/pulse/art-science-choices-strategy-whitney-d-zimmerman-aeale/?trackingId=qANPeVt9Ql%2B5SpsRj9dsEg%3D%3D" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Making truly coherent, clear choices</a><span style="color: #fff;">&nbsp;is the bedrock foundation of strategy&rsquo;s ultimate success, or failure. Gavin offers both discipline and encouragement here.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Craft a narrative that explains causality, not just intent.</strong><span style="color: #fff;">&nbsp;Gavin teaches that history isn&rsquo;t just data &mdash; it&rsquo;s a narrative that explains change. Your value creation story should do the same. It must explain why the proposed future will happen, grounded in a believable theory of how change occurs.</span></p>
+            <p style="color: var(--color-fg-primary);">When you engage the board, investors, and wider stakeholders, you&rsquo;re essentially making an argument about history and future history &mdash; what has happened, what will happen, and why. Clear causal logic, awareness of context, and honest acknowledgment of assumptions make that argument defensible.</p>
+            <p style="color: var(--color-fg-primary);">This specific capability is one of the ten biggest differentiators of Strategy Champions, making this insight particularly important.</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Accept radical uncertainty &mdash; and act anyway.</strong><span style="color: #fff;">&nbsp;This is Gavin&rsquo;s core message. Decision-makers must act without perfect information. A historical sensibility provides humility about what can be known, combined with conviction to act on the best available judgment.</span></p>
+            <p style="color: var(--color-fg-primary);">There&rsquo;s a risk that historical thinking &mdash; with its emphasis on complexity, multiple perspectives, and contingency &mdash; can leave decision-makers paralyzed. Gavin insists otherwise. Thinking historically should remind us that choosing not to act is itself consequential.</p>
+            <p style="color: var(--color-fg-primary);">But commitment should come with clear eyes. As Gavin writes,</p>
+            <blockquote style="color: #fff;border-left: var(--size-4) solid var(--background_pop);">
+                <p style="color: var(--color-fg-primary);"><em style="color: #fff;">&ldquo;Thinking historically allows analysts and policymakers to appreciate that there is no &lsquo;end point&rsquo; to the unfolding of time, no permanent solving for X, no solution that ends history. The same is true for statecraft and strategy: even the greatest success generates new problems.&rdquo;</em></p>
+            </blockquote>
+            <p style="color: var(--color-fg-primary);">Commitment isn&rsquo;t about finding the final answer. It&rsquo;s about acting wisely knowing there isn&rsquo;t one &mdash; and being prepared to learn and adapt as consequences unfold.</p>
+            <h4 style="color: var(--color-fg-primary);font-size: 1.125em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Mobilization and Execution<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h4>
+            <p style="color: var(--color-fg-primary);">I won&rsquo;t explore Gavin&rsquo;s relevance to mobilization and execution in full detail, but four points are worth briefly mentioning.</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Empowering leaders with context, not just targets.</strong><span style="color: #fff;">&nbsp;Strategy grounded in historical thinking gives leaders a narrative they can own &mdash; one that explains why change will happen, not just what to do. When leaders understand the causal logic beneath a strategy, they can defend it when challenged, adapt it when circumstances shift, and communicate it to their teams. Compare this to a strategy that&rsquo;s essentially a set of projections: leaders can repeat it, but they can&rsquo;t own it. The ability to empower and engage leaders on strategic choices they must individually own is the second biggest differentiator of Strategy Champions, making this particularly important to note.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Building conviction for radical resource reallocation.</strong><span style="color: #fff;">Reallocating resources is hard because it confronts internal inertia and resistance. Historical thinking can provide language and logic to distinguish structural shifts from noise, and to make the case for reallocation based on causal reasoning rather than recent performance alone.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Enabling genuine strategic learning.</strong><span style="color: #fff;">&nbsp;Strategy Champions excel at documenting the key assumptions underlying each strategic choice. This discipline &mdash; surfacing beliefs, making them explicit, testing them against emerging evidence &mdash; is core to what Gavin advocates. Without documented assumptions, you can&rsquo;t really learn from outcomes. You&rsquo;re just reacting.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Scanning the horizon for the next S-curve.</strong><span style="color: #fff;">&nbsp;The practice of horizontal history &mdash; looking laterally at converging pressures across domains, not just at your industry in isolation &mdash; is a way to spot the next S-curve before it&rsquo;s obvious.</span></p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">History in Action: The Danaher Example<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">The concepts above can feel abstract. To see what historically-informed strategy actually looks like in practice &mdash; and how it can cut through the hesitation and bias that often paralyze strategic conversations &mdash; let me share an example from a recent roundtable dinner with chief strategy officers.</p>
+            <p style="color: var(--color-fg-primary);">The conversation had turned to agentic AI factories and broader AI adoption pace, and two views had surfaced that I wanted to challenge. First, there was a question of whether only large companies can make transformational commitments to new technologies, and whether smaller, sub-scale companies needed to wait or manage their relative ambition. Second, whether one can afford to wait for AI capabilities to mature until current adoption challenges dissolve; a participant suggested that in just 2&ndash;3 years AI would be able to cut through many of the problems companies were currently facing.</p>
+            <p style="color: var(--color-fg-primary);">Both views are understandable. Both are also, I believe, limiting beliefs that deserve scrutiny. So I drew on a less well-known historical example.</p>
+            <p style="color: var(--color-fg-primary);">In 1988, Danaher was a small industrial conglomerate &mdash; under $1 billion in revenue, while Toyota was already a global giant. One of Danaher&rsquo;s businesses, Jacobs Engine Brake, was in crisis: low productivity, poor quality, customers leaving. The general manager, desperate for solutions, convinced two architects of the Toyota Production System to visit his factory. They were appalled by what they saw. But by morning, productivity was already improving. Within months, the factory was transformed.</p>
+            <p style="color: var(--color-fg-primary);">The Rales brothers, who founded Danaher, didn&rsquo;t commission studies to predict where lean would lead. They didn&rsquo;t run parallel pilots across divisions. They saw potential &mdash; not a destination &mdash; and they committed. They made a properly strategic choice in creating the Danaher Production System.</p>
+            <p style="color: var(--color-fg-primary);">Over the following three decades, that commitment led, in a path-dependent manner, to something far beyond what anyone initially anticipated. The production system eventually evolved from the Danaher Production System to become the Danaher Business System. It expanded beyond the factory floor into sales, marketing, procurement, R&amp;D, and HR. It enabled radical portfolio transformations from industrial tools to instrumentation to life sciences to diagnostics. The results have been the stuff of legend: Danaher has returned over 100,000% versus the S&amp;P 500&rsquo;s approximately 4,000%.</p>
+            <p style="color: var(--color-fg-primary);">I challenged the strategy leaders in the room to think differently about the moment and how well we can understand the destination. The historical example didn&rsquo;t tell anyone what to do. But it shifted the frame. It created space for a different kind of conversation &mdash; one oriented toward strategic courage rather than defensive caution.</p>
+            <p style="color: var(--color-fg-primary);">Notice what the example was doing, in Gavin&rsquo;s terms. Notice what the example was doing, in Gavin&rsquo;s terms. It deployed counterfactual reasoning &mdash; implicitly asking &ldquo;what if a sub-scale company did commit boldly to an emerging capability?&rdquo; &mdash; to stretch mental elasticity about what&rsquo;s possible. It challenged historical inevitability: the assumption that only giants can afford transformational bets isn&rsquo;t a law of nature but a belief worth questioning. It used chronological proportionality to distinguish signal from noise: lean manufacturing in 1988 wasn&rsquo;t a management fad but a structural shift worth committing to early, before the destination was clear. And the example illustrated Gavin&rsquo;s core insight about acting under radical uncertainty: the Rales brothers didn&rsquo;t commission studies to predict where lean would lead &mdash; they saw potential and committed anyway, accepting that even great success would generate new problems to solve. But I also acknowledged what rigorous historical thinking would demand: probing the horizontal history (what else was happening in American manufacturing that made this possible?), guarding against outcome bias (we know Danaher&rsquo;s ending, which inevitably colors how we tell the story), and examining the differences between 1988 and today as carefully as the similarities. A compelling anecdote in a dinner conversation is not the same as historically-informed strategy.</p>
+            <p style="color: var(--color-fg-primary);">This is what business history can do when used well. It reframes what&rsquo;s possible. It reveals options that linear extrapolation from the present would miss. And it can inspire conviction to act.</p>
+            <p style="color: var(--color-fg-primary);">But there is a meaningful difference between a well-chosen example and historically-grounded strategic choice. Telling the Danaher story in a roundtable requires a vivid case, directionally true, well-matched to the moment. Building a company&rsquo;s AI strategy on historical reasoning would require working through questions like those in Gavin&rsquo;s checklist systematically &mdash; not just noting that rigor matters, but actually doing the work. That&rsquo;s a higher bar, and it&rsquo;s where genuine expertise earns its keep.</p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">The Historian&rsquo;s Checklist: A Quality Test for Historical Thinking<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">Using history well is harder than it looks and feels. It&rsquo;s easy to hear a powerful historical story and feel you&rsquo;ve learned something transferable. But have you? Have you examined the differences as carefully as the similarities? Have you considered the context that made that outcome possible? Have you asked what else was happening at the time?</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">This is where humility matters. Gavin offers a twelve-question checklist, inspired by&nbsp;</span><a href="https://en.wikipedia.org/wiki/The_Checklist_Manifesto" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">The Checklist Manifesto</a><span style="color: #fff;">, a timeless book everyone should read. I think of the list as somewhat similar in practice&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/have-you-tested-your-strategy-lately" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">McKinsey&rsquo;s Ten Tests of Strategy</a><span style="color: #fff;">; while it can act as a guide, it is equally powerful as a quality test for evaluating rigor.</span></p>
+            <p style="color: var(--color-fg-primary);">Before finalizing a strategic assessment or committing to a decision informed by historical thinking, work through these questions:</p>
+            <ol style="color: #fff;">
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">How did we get here?</strong><span style="color: #fff;">&nbsp;(vertical history)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">What else is happening?</strong><span style="color: #fff;">&nbsp;(horizontal history)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">What is unsaid?</strong><span style="color: #fff;">&nbsp;(unspoken assumptions)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">How are things trending?</strong><span style="color: #fff;">&nbsp;(time lags and historical anamnesis)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">How is this understood by others?</strong><span style="color: #fff;">&nbsp;(historical perspective)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Why does this matter?</strong><span style="color: #fff;">&nbsp;(chronological proportionality)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">What are the possible unexpected outcomes?</strong><span style="color: #fff;">&nbsp;(unintended consequences)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Was this inevitable?</strong><span style="color: #fff;">&nbsp;(outcome bias)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Are things changing rapidly?</strong><span style="color: #fff;">&nbsp;(punctuated equilibrium)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Are we using the past correctly?</strong><span style="color: #fff;">&nbsp;(historical malpractice)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Was this unprecedented?</strong><span style="color: #fff;">&nbsp;(historical myopia)</span></p>
+                </li>
+                <li style="color: #fff;">
+                    <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">What does it mean?</strong><span style="color: #fff;">&nbsp;(historical purpose)</span></p>
+                </li>
+            </ol>
+            <p style="color: var(--color-fg-primary);">These questions won&rsquo;t tell you exactly what to do. But, like our Ten Tests of Strategy, they reveal blind spots, surface assumptions, and help you avoid the most common mistakes, and ultimately guide inquiry and collaboration with experts.</p>
+            <p style="color: var(--color-fg-primary);">Consider how a rigorous application of this checklist might deepen even the Danaher example I shared earlier. What else was happening in American manufacturing in 1988 that made Danaher&rsquo;s commitment possible &mdash; or unusually bold? How did other companies that encountered the same lean methods respond, and why did their outcomes differ? What unspoken assumptions about organizational change shaped what the Rales brothers saw as possible? A skilled strategy historian &mdash; one trained in both historical and strategy methods &mdash; can surface insights that a thin reading of the case might miss entirely.</p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">The Value of Genuine Expertise<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">Ultimately, I think Gavin is ultimately arguing for a shift in how we value and deploy knowledge. Historical sensibility requires distance &mdash; the ability to step back from the flow of events and see structure rather than just stream.</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">As Andrey Mir argues in&nbsp;</span><a href="https://www.amazon.com/dp/B0FHK51WFB" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">The Digital Reversal</a><span style="color: #fff;">, the digital age is rewinding this capacity: the &ldquo;cognitive detachment&rdquo; that defined the era of literacy is giving way to &ldquo;situational immersion,&rdquo; a state of continuous, reactive flow where contemplation gets crowded out. In that environment, Gavin&rsquo;s framework offers necessary counter-friction for strategy leaders &mdash; a way to regain the perspective that high-stakes judgment requires. Three imperatives follow.</span></p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">The imperative of historical sensibility<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">What does historical sensibility actually provide? Gavin&rsquo;s answer applies as much to business strategy as to statecraft: thinking historically forces decision-makers to grapple with causality and agency, to reflect on time horizons and critical junctures, to weave together micro- and macro-analyses into a coherent whole. It &ldquo;demands precision&rdquo; and &ldquo;protects against &lsquo;paralysis by analysis.&rsquo;&rdquo; Perhaps most valuably, it encourages leaders to interrogate the questions they&rsquo;re asking &mdash; to explore whether they can craft better, more useful queries and apply them rigorously.</p>
+            <p style="color: var(--color-fg-primary);">In business, we face constant pressure to reduce strategy to data and projections. Historical sensibility offers something different: not faster answers, but better questions. When a strategist trained in historical thinking looks at a competitive threat, they don&rsquo;t just ask &ldquo;what are the numbers?&rdquo; They ask &ldquo;how did we get here?&rdquo;, &ldquo;what else is happening that shapes this?&rdquo;, and &ldquo;are we solving for noise or signal?&rdquo;</p>
+            <p style="color: var(--color-fg-primary);">This sensibility also changes how we read business history itself. In Thinking Historically, Gavin examines how the standard Cold War narrative &mdash; what John Lewis Gaddis famously called &ldquo;the Long Peace&rdquo; &mdash; obscures as much as it reveals. The familiar story of stable superpower competition and inevitable Western triumph papers over the contingency, near-misses, and contested interpretations that careful historical work uncovers. The same is true for business and technology history. Too many popular accounts of industry transformation read like origin myths: the winners were destined to win, the losers made obvious mistakes, and the arc of progress bends toward the present. Historical sensibility means resisting this. It means recovering the radical uncertainty that leaders actually faced, the moments when failure was entirely possible, and the alternative futures that never came to pass.</p>
+            <p style="color: var(--color-fg-primary);">I find particular value in older business histories &mdash; sometimes out-of-print books from the 1960s, 1970s, and 1980s &mdash; written closer to the events they describe, before decades of mythologizing smoothed out the uncertainty. The leaders in those pages didn&rsquo;t know how their stories would end. Reading accounts written before the ending was known helps restore the fog they operated in &mdash; and that&rsquo;s precisely the fog today&rsquo;s strategists face.</p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">The imperative of discernment<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">Engaging genuine expertise requires the ability to distinguish deep analysis from surface-level fluency. &ldquo;The accessibility of history is both a blessing and a curse,&rdquo; Gavin writes. &ldquo;In less scrupulous hands, the past may be mined for any answer, any justification, any cause.&rdquo; There is a meaningful difference between a LinkedIn post informed by a couple of books and work by someone properly trained in historical method &mdash; whether that training is formal or not.</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">Some analysts bring genuine historical discipline to their work &mdash; </span><a href="https://www.ben-evans.com/" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Benedict Evans</a><span style="color: #fff;">&nbsp;(who history at Cambridge) in how he attends to how industries actually evolved,&nbsp;</span><a href="https://www.thediff.co/" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Byrne Hobart</a><span style="color: #fff;">&nbsp;in how he pressure-tests analogies, the thinkers behind&nbsp;</span><a href="https://www.acquired.fm/" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Acquired</a><span style="color: #fff;">&nbsp;(Ben Gilbert and David Rosenthal) and&nbsp;</span><a href="https://joincolossus.com/series/founders/" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">Founders</a><span style="color: #fff;">&nbsp;(David Senra) in their commitment to primary research. Rigorous historical thinking about business is possible outside the academy.</span></p>
+            <p style="color: var(--color-fg-primary);">For the highest-stakes strategic decisions, though, there is a case for going further &mdash; engaging scholars with formal historical training, or strategy professionals who have invested deeply in historical method. This will likely bring productive discomfort I have personal experience with. Genuine expertise tends to complicate rather than simplify, to challenge assumptions rather than confirm them. But as Gavin observes,</p>
+            <blockquote style="color: #fff;border-left: var(--size-4) solid var(--background_pop);">
+                <p style="color: var(--color-fg-primary);"><em style="color: #fff;">&ldquo;historians develop a sense for when historical velocity intensifies, a skill that can also be useful to political leaders and strategists.&rdquo;</em></p>
+            </blockquote>
+            <p style="color: var(--color-fg-primary);">That pattern recognition &mdash; knowing when you&rsquo;re in a moment of genuine discontinuity versus ordinary turbulence &mdash; is hard-won and worth seeking out.</p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">The imperative of engagement<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">Gavin argues that the gap isn&rsquo;t just the fault of decision-makers; historians must be better equipped to bridge it. He calls for historians to engage policymakers, understanding their constraints and the &ldquo;foggy windshield&rdquo; through which they view the future.</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">The same applies to business. Historians and strategists alike must constantly learn to engage CEOs effectively. Those who have the most impact in applied settings are those who can translate without diluting &mdash; who can bring genuine complexity to bear on real decisions without overwhelming the people who need to make them. This is why a pillar of my work advising Chief Strategy Officers is helping them&nbsp;</span><a href="https://substack.com/home/post/p-170772496" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">understand how mobilization really works</a><span style="color: #fff;">.</span></p>
+            <p style="color: var(--color-fg-primary);">Gavin&rsquo;s book is a model for this kind of translation. We need more work that sits at the intersection of rigorous historical thinking and practical strategic application.</p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">The shared craft<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">I kept noticing a resonance in Thinking Historically. I found I could substitute &ldquo;business strategist&rdquo; for &ldquo;historian&rdquo; and have the sentences remain true. Consider this passage:</p>
+            <blockquote style="color: #fff;border-left: var(--size-4) solid var(--background_pop);">
+                <p style="color: var(--color-fg-primary);"><em style="color: #fff;">&ldquo;History is not like most other scholarly disciplines. Beyond a concern for the past, the field lacks a shared and transparent sense of itself &mdash; its methods, values, and how it evaluates what its practitioners do &mdash; that can be conveyed simply and coherently to the larger world. Unlike, say, neurosurgery or mechanical engineering, there is no accepted path to excellence in historical thinking or clear way to evaluate it.&rdquo;</em></p>
+            </blockquote>
+            <p style="color: var(--color-fg-primary);">The same could be said of business strategy. Both fields require rigorous training that outsiders underestimate. Both face pressure to deliver certainty they cannot honestly provide. Both find their comparative advantage in complexity, not simplicity &mdash; yet both must serve decision-makers who need to act. Gavin quotes former National Security Adviser Sandy Berger: &ldquo;History is written through a rear-view mirror but unfolds through a foggy windshield.&rdquo; This dynamic is as relevant to business strategists as to historians.</p>
+            <p style="color: var(--color-fg-primary);">Gavin&rsquo;s guidance to historians &mdash; about rigor, engagement, humility, and the courage to advise even when the advice is uncomfortable &mdash; applies equally to strategists. Recognizing the links between the two fields is where some of the most valuable, and scarcest, strategic insight lives.</p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Advice for Strategy Leaders<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">Our research shows that Strategy Champions are nearly twice as likely as stragglers to have both dedicated budget and executive support for building strategy capabilities annually. If you lead a strategy function, 2026 is a good year to ask whether historical sensibility should be part of that agenda. The year has already shown the world will continue to be difficult to navigate &mdash; geopolitical flux, technological discontinuity, and economic uncertainty aren&rsquo;t going away.</p>
+            <p style="color: var(--color-fg-primary);">Here are three ways to translate Gavin&rsquo;s insights into action:</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Build a geopolitical insights capability.</strong><span style="color: #fff;">&nbsp;Even a small, embedded function &mdash; one or two people within your strategy team or broader operating model &mdash; can sustain the kind of historical sensibility Gavin advocates. The key is giving it the right mandate: not just monitoring current events, but developing genuine expertise in how regions, industries, and institutions have evolved over time. I have helped clients build such functions. They don&rsquo;t require massive investment, but they do require intentionality about operating model and a commitment to engaging external historical expertise when needed. Done well, this becomes a durable source of perspective that compounds over time.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Test the value on one strategic question.</strong><span style="color: #fff;">&nbsp;Pick one of your most important open questions &mdash; a market entry decision, a technology bet, a view on a competitor&rsquo;s trajectory &mdash; and engage either a professional historian or a strategy professional with deep historical practice to develop a richer perspective. The goal isn&rsquo;t to outsource judgment but to see what a more rigorous historical lens reveals: different analogies, overlooked context, assumptions worth questioning, the foundation for more courage. Strategy Champions are more likely to want to engage external experts more in their strategy efforts; this is one concrete way to do so. If it yields insight, you&rsquo;ll know where to invest further. If it doesn&rsquo;t, you&rsquo;ll have learned something about what kinds of questions benefit most from this approach.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Map historical thinking to your building blocks.</strong><span style="color: #fff;">&nbsp;Reflect on your strengths, weaknesses, and priorities across&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">the building blocks of strategy</a><span style="color: #fff;">&nbsp;and ask where historical lenses and techniques offer the most opportunity. For some organizations, the gap is in challenging sacred cows during alignment. For others, it&rsquo;s in distinguishing signal from noise during assessment, or in crafting narratives that explain causality during commitment. The best strategy leaders maintain a capability-building agenda anchored to an honest view of where their function is strong and where it needs development, and&nbsp;</span><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-strategy-leaders-evolving-mandate" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">a mandate that supports it</a><span style="color: #fff;">. Historical sensibility isn&rsquo;t uniformly valuable everywhere; knowing where it matters most for you is how you make the investment count.</span></p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Reflections for Historians and Educators<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">Gavin&rsquo;s call runs in both directions. Just as strategists need more historical sensibility, historians need to be better equipped to engage the practitioners who could benefit from their expertise. Three things could help:</p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Learn the language and constraints of business decision-making.</strong><span style="color: #fff;">&nbsp;Boardrooms operate under pressures that academic settings don&rsquo;t: short timelines, imperfect information, the need for recommendations that can survive organizational politics long enough to matter. Engaging corporate leaders effectively means understanding these constraints &mdash; not to capitulate to them, but to make your expertise usable within them. The historians who have the most impact in applied settings are those who can translate without diluting. I feel our building blocks of strategy are very useful here.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Consider board training.</strong><span style="color: #fff;">&nbsp;I support board member training annually and believe it would be particularly valuable for professional historians interested in serving on corporate boards. The perspective historians bring &mdash; comfort with ambiguity, resistance to monocausal explanations, sensitivity to how context shapes choices &mdash; is genuinely useful in governance. But translating that perspective into boardroom contribution requires understanding how boards function, what fiduciary duty entails, and how to be effective in that setting.</span></p>
+            <p style="color: var(--color-fg-primary);"><strong style="color: #fff;">Engage the strategy profession as a partner.</strong><span style="color: #fff;">&nbsp;Strategy practitioners who take history seriously &mdash; whether at consultancies, in strategy functions, in investment roles, or elsewhere in the academy &mdash; are natural allies. We face similar challenges: translating complex, contingent analysis into actionable insight for decision-makers who need to act under uncertainty. There&rsquo;s an opportunity for more collaboration here. Gavin&rsquo;s book is a model for this kind of bridge-building. We need more.</span></p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">Closing<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <p style="color: var(--color-fg-primary);">The surge of interest in business history is real and makes sense. We&rsquo;re navigating a new era of genuine uncertainty, and the past has much to teach. But that value is only realized with rigor &mdash; through tools like Gavin&rsquo;s checklist, through genuine expertise, and through resistance to the temptation to settle for historical thinking that sounds good but doesn&rsquo;t hold up.</p>
+            <p style="color: var(--color-fg-primary);">The importance of deep expertise is growing, not shrinking. In a world where confident-sounding analysis is increasingly easy to produce, true expertise and the discernment to recognize it becomes more valuable, not less. The signal-to-noise ratio is falling. Genuine knowledge is how you cut through.</p>
+            <p style="color: var(--color-fg-primary);">The leaders who navigate uncertainty well will be the ones who combine genuine commitment with genuine expertise (and yes, the leverage AI provides when used sensibly), including the hard-won experience of thinking historically.</p>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">My post has only scratched the surface of Gavin&rsquo;s work, so if you found this interesting, you can buy&nbsp;</span><em style="color: #fff;">Thinking Historically: A Guide to Statecraft and Strategy</em><span style="color: #fff;">&nbsp;</span><a href="https://www.amazon.com/Thinking-Historically-Guide-Statecraft-Strategy/dp/0300278365/ref=sr_1_1?crid=3TXF0UM8VDXDM&dib=eyJ2IjoiMSJ9.pzy-Pf1PnhsAqj1avusfNcM4SVvPdyfJp30hJpHOiU3ewbovcKOemw24Hz9jPfBB6I2knte0wWXXVMIwYOp5q1UVX4sRNZdbxEd3Q8dA3nPsWc7gGd2SdN0qXg0V44bNXbzGwwqmhYedbbUg77427MRHQ9jAlCvHfFZJI9OrPYzUIwotBdeeeFy40JFcZlaBxbd82n7N27nMGNueObl52bEW2qfQQDNcyhejQhx9QUc.hn0n6n5UV8wHUjp6OgIT1mWnM2Ji_rNQaQT0HIm6RCs&dib_tag=se&keywords=thinking+historically&qid=1767388433&sprefix=thinking+historicall%2Caps%2C220&sr=8-1" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">here</a><span style="color: #fff;">.</span></p>
+            <h3 style="color: var(--color-fg-primary);font-size: 1.375em;font-family: var(--font_family_headings, var(--font_family_headings_preset, var(--font-family-title)));">A Note on the Artwork<div style="color: #fff;">
+                    <div style="color: #fff;background-color: var(--color-bg-primary);">
+                        <div style="color: #fff;"><br></div><button tabindex="0" type="button" style="color: #fff;background-color: var(--color-button-bg);font-size: unset;font-family: var(--font-family-text);border: medium;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </h3>
+            <div style="color: #fff;">
+                <figure style="color: #fff;"><a target="_blank" href="https://substackcdn.com/image/fetch/$s_!y2Y6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg" rel="nofollow ugc noopener" style="color: unset;border: 0px;">
+                        <div style="color: #fff;">
+                            <source type="image/webp" srcset="https://substackcdn.com/image/fetch/$s_!y2Y6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg%20424w,%20https://substackcdn.com/image/fetch/$s_!y2Y6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg%20848w,%20https://substackcdn.com/image/fetch/$s_!y2Y6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg%201272w,%20https://substackcdn.com/image/fetch/$s_!y2Y6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg%201456w" sizes="100vw" style="color: #fff;"><img src="https://substackcdn.com/image/fetch/$s_!y2Y6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg" width="904" height="644" alt="" srcset="https://substackcdn.com/image/fetch/$s_!y2Y6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg 424w, https://substackcdn.com/image/fetch/$s_!y2Y6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg 848w, https://substackcdn.com/image/fetch/$s_!y2Y6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!y2Y6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e983476-2d1d-491c-a70e-28f95269c290_904x644.jpeg 1456w" sizes="100vw" style="color: rgb(255, 255, 255);">
+                            <div style="color: #fff;">
+                                <div style="color: #fff;"><button tabindex="0" type="button" style="color: #fff;border: 0px;"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882"></path>
+                                            </g>
+                                        </svg></button></div>
+                            </div>
+                        </div>
+                    </a>
+                    <figcaption style="text-align: center;color: var(--color-fg-secondary);font-size: calc(var(--font-size-14) + var(--font_size_body_offset, 0px));font-family: var(--font-family-serif);">J. W. M. Turner, Lecture Diagram 65: The interior of a Prison (c. 1810), Tate Britain</figcaption>
+                </figure>
+            </div>
+            <div style="color: #fff;">
+                <figure style="color: #fff;"><a target="_blank" href="https://substackcdn.com/image/fetch/$s_!cjIa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg" rel="nofollow ugc noopener" style="color: unset;border: 0px;">
+                        <div style="color: #fff;">
+                            <source type="image/webp" srcset="https://substackcdn.com/image/fetch/$s_!cjIa!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg%20424w,%20https://substackcdn.com/image/fetch/$s_!cjIa!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg%20848w,%20https://substackcdn.com/image/fetch/$s_!cjIa!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg%201272w,%20https://substackcdn.com/image/fetch/$s_!cjIa!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg%201456w" sizes="100vw" style="color: #fff;"><img src="https://substackcdn.com/image/fetch/$s_!cjIa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg" width="904" height="598" alt="" srcset="https://substackcdn.com/image/fetch/$s_!cjIa!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg 424w, https://substackcdn.com/image/fetch/$s_!cjIa!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg 848w, https://substackcdn.com/image/fetch/$s_!cjIa!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!cjIa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a2f8d95-fc3e-4043-9bf8-76f278b470bc_904x598.jpeg 1456w" sizes="100vw" style="color: rgb(255, 255, 255);">
+                            <div style="color: #fff;">
+                                <div style="color: #fff;"><button tabindex="0" type="button" style="color: #fff;border: 0px;"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882"></path>
+                                            </g>
+                                        </svg></button></div>
+                            </div>
+                        </div>
+                    </a>
+                    <figcaption style="text-align: center;color: var(--color-fg-secondary);font-size: calc(var(--font-size-14) + var(--font_size_body_offset, 0px));font-family: var(--font-family-serif);">J. W. M. Turner, Lecture Diagram 66: Perspective construction of the interior of a prison (c. 1810), Tate Britain</figcaption>
+                </figure>
+            </div>
+            <p style="color: var(--color-fg-primary);"><span style="color: #fff;">The images accompanying this post are&nbsp;</span><a href="https://en.wikipedia.org/wiki/J._M._W._Turner" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">J.M.W. Turner</a><span style="color: #fff;">&rsquo;s Lecture Diagrams 65 and 66: Interior of a Prison (c. 1810), after etchings by Giovanni Battista Piranesi. Turner created them during his thirty years as Professor of Perspective at the Royal Academy.</span></p>
+            <p style="color: var(--color-fg-primary);">Diagram 65 is atmospheric: dark stonework, deep shadows, a solitary figure barely visible in a cavernous space. Diagram 66 depicts the same scene with perspective construction lines exposed in red &mdash; the geometric scaffolding that makes the image work.</p>
+            <p style="color: var(--color-fg-primary);">Piranesi&rsquo;s imaginary prisons were famously complex and disorienting. Turner chose them to demonstrate that even the most intricate spaces can be constructed through disciplined method. The finished rendering appears effortless; the diagram reveals the rigor underneath.</p>
+            <p style="color: var(--color-fg-primary);">This is the relationship between historical sensibility and historical thinking. The best use of history in strategy doesn&rsquo;t look mechanical. It appears as judgment, insight, perspective. But beneath that apparent fluency is rigorous training &mdash; questions learned over years, sources weighed against each other, context painstakingly reconstructed. The construction lines are invisible in the finished work, but they&rsquo;re what makes it hold together.</p>
+            <p style="color: var(--color-fg-primary);"><em style="color: #fff;"><span style="color: #fff;">The National Galleries of Scotland host an&nbsp;</span><a href="https://www.nationalgalleries.org/exhibition/turner-in-january" rel="nofollow ugc noopener" style="color: var(--color-fg-primary);">annual exhibit on Turner every January</a><span style="color: #fff;">. This year&rsquo;s is fabulous, as usual. If you find yourself in Edinburgh this month, I encourage you to stop by.</span></em></p>
+        </div>
+    </div>
+</div>
+<div style="bottom: 10px; right: 10px; position: absolute;"><a href="https://signatureforemail.com/?utm_source=wth_free_link&utm_medium=external" target="_blank" style="font-size:11px; color: #d0d0d0;">Email Signature Editor</a></p>
+
+<!-- ARTICLE HTML END -->
+
+            </div>
+        </details>
+    </div>
+    
+    <div class="back-link">
+        <a href="https://www.linkedin.com/newsletters/7258844747895656448/">← Read on LinkedIn</a><br>
+        <a href="https://medium.com/@whitneyzim">← Read on Medium</a><br>
+        <a href="https://substack.com/@whitneydzimmerman">← Read on Substack</a>
+    </div>
+    
+    <script>
+        function getArticleTextWithLinks() {
+            const content = document.getElementById('article-content').cloneNode(true);
+            
+            // Convert links to "text (url)" format
+            const links = content.querySelectorAll('a');
+            links.forEach(link => {
+                const url = link.href;
+                const text = link.textContent;
+                // Only add URL if it's different from the text (not already a bare URL)
+                if (url && !text.includes(url)) {
+                    link.replaceWith(`${text} (${url})`);
+                }
+            });
+            
+            // Get text content, preserving paragraph breaks
+            const paragraphs = content.querySelectorAll('p, h1, h2, h3, h4, li');
+            let text = '';
+            
+            if (paragraphs.length > 0) {
+                paragraphs.forEach(p => {
+                    text += p.textContent.trim() + '\n\n';
+                });
+            } else {
+                text = content.textContent;
+            }
+            
+            return text.trim();
+        }
+        
+        function copyAndOpen(service) {
+            const articleText = getArticleTextWithLinks();
+            const prompt = `Please provide a comprehensive summary of the following article. Preserve the key insights and main arguments. If there are URLs in the text, you may access them for additional context if needed.\n\n---\n\n${articleText}`;
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(prompt).then(() => {
+                // Show success message
+                const status = document.getElementById('status');
+                status.className = 'status success';
+                status.textContent = '✓ Copied to clipboard! Paste in the new tab.';
+                
+                // Open the appropriate service
+                const urls = {
+                    claude: 'https://claude.ai/new',
+                    chatgpt: 'https://chat.openai.com/',
+                    gemini: 'https://gemini.google.com/app'
+                };
+                
+                window.open(urls[service], '_blank');
+            }).catch(err => {
+                alert('Could not copy to clipboard. Please try again.');
+                console.error(err);
+            });
+        }
+    </script>
+</body>
+</html>
