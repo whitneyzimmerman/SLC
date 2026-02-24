@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL;LC — Modularity and the Craft of Strategy: In conversation with HBS Emerita Professor Carliss Baldwin</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions h2 {
+            font-size: 1rem;
+            margin: 0 0 0.75rem 0;
+        }
+        
+        .instructions ol {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+        
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 2rem;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        
+        button:hover {
+            opacity: 0.85;
+        }
+        
+        .claude {
+            background: #d97706;
+            color: white;
+        }
+        
+        .chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+        
+        .gemini {
+            background: #4285f4;
+            color: white;
+        }
+        
+        .status {
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            display: none;
+        }
+        
+        .status.success {
+            display: block;
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .article-preview {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .article-preview summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .article-preview summary:hover {
+            color: #333;
+        }
+        
+        #article-content {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        #article-content a {
+            color: #2563eb;
+        }
+        
+        .back-link {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+        
+        .back-link a {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Strategy Leader's Craft</h1>
+    <p class="subtitle">TL;LC (Too Long; Let's Chat) for: <strong>Modularity and the Craft of Strategy: In conversation with HBS Emerita Professor Carliss Baldwin</strong></p>
+    
+    <div class="instructions">
+        <h2>How this works</h2>
+        <ol>
+            <li>Click your preferred AI below</li>
+            <li>The article text is copied to your clipboard</li>
+            <li>A new tab opens — just paste (Ctrl+V / Cmd+V)</li>
+        </ol>
+    </div>
+    
+    <div class="buttons">
+        <button class="claude" onclick="copyAndOpen('claude')">Use Claude</button>
+        <button class="gemini" onclick="copyAndOpen('gemini')">Use Gemini</button>
+        <button class="chatgpt" onclick="copyAndOpen('chatgpt')">Use ChatGPT</button>
+    </div>
+    
+    <div id="status" class="status"></div>
+    
+    <div class="article-preview">
+        <details>
+            <summary>View article text</summary>
+            <div id="article-content">
+                
+<!-- ARTICLE START -->
+
+<h1>Modularity and the Craft of Strategy: In conversation with HBS Emerita Professor Carliss Baldwin</h1>
+<p>Sir John Soane's Drawing Office, Sir John Soane's Museum, London. Photo: Gareth Gardner, 2023</p>
+<p>Every strategist operates with a mental model of how their organization works. Most of those models are incomplete. They capture markets, competitors, capabilities, and financial flows. They often don&rsquo;t capture the thing that determines how all of those elements interact: the architecture of the technology itself.</p>
+<p>This omission was always a limitation. Today, as organizations race to integrate LLM technology into their operations, build AI-native businesses, and reconfigure how knowledge work gets done, it risks becoming a serious vulnerability. The technological shock of generative AI is changing how organizations must be structured, not just what they do, including where their boundaries should sit, and which parts of their value chains are becoming more or less modular in entirely new ways. Leaders navigating these decisions without a mental model for understanding how technology shapes organizations are at a disadvantage.</p>
+<p><a href="https://en.wikipedia.org/wiki/Carliss_Y._Baldwin">Carliss Y. Baldwin</a> has spent four decades working on this problem. A professor emerita at Harvard Business School, Baldwin has produced one of the most rigorous and far-reaching bodies of work on the relationship between technology, design, and organizational structure. Her two-volume Design Rules &mdash; <a href="https://direct.mit.edu/books/monograph/1856/Design-Rules-Volume-1The-Power-of-Modularity">the first published in 2000</a>, <a href="https://direct.mit.edu/books/oa-monograph/5887/Design-Rules-Volume-2How-Technology-Shapes">the second in 2024</a> &mdash; offers a set of concepts that belong in every strategist's toolkit: modularity, design rules, option value, mirroring, bottlenecks, and the spectrum of complementarity. Together, they constitute a theory of how technology shapes organizations that is as relevant to the age of AI as it was to the age of the personal computer. They&rsquo;ve long been core to how I think, and so I was delighted she agreed to speak with me recently.</p>
+<p>This post overviews Baldwin&rsquo;s work for strategy leaders, explains her core frameworks, maps them to McKinsey&rsquo;s Building Blocks of Strategy Design, Mobilization, and Execution, and demonstrates how to see the other curations I have done in recent posts combine into a library of strategy modules.</p>
+<p>This is a long post, in part to ensure its usefulness for use with GenAI, and so if you are short on time, I encourage you to explore its insights with your favorite chatbot. I have set up this link to make feeding this article to Claude, Gemini, and ChatGPT easy.</p>
+<p><strong>In this post:</strong></p>
+<ul>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#the-intellectual-arc-of-carliss-baldwin">The Intellectual Arc of Carliss Baldwin</a></li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#the-core-frameworks">Baldwin&rsquo;s Core Frameworks</a></li>
+<ul>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#architecture-and-modularity">Architecture and Modularity</a></li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#value-structure-and-bottlenecks">Value Structure and Bottlenecks</a></li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#organization-and-mirroring">Organization and Mirroring</a></li>
+</ul>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#applying-baldwins-frameworks-in-strateg">Applying Baldwin's Frameworks Across our Building Blocks of Strategy</a></li>
+<ul>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#align-on-your-strategic-challenge">Align on Your Strategic Challenge</a></li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#assess-through-multiple-lenses">Assess Through Multiple Lenses</a></li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#explore-bold-value-creating-strategic-m">Explore Bold Value-Creating Strategic Moves</a></li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#commit-to-a-coherent-set-of-strategic-c">Commit to a Coherent Set of Strategic Choices</a></li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#mobilize-and-execute">Mobilize and Execute</a></li>
+</ul>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#seeing-strategy-through-a-modular-lens">Seeing Strategy Through a Modular Lens</a></li>
+<ul>
+<li>Overview of Strategy Modules</li>
+</ul>
+<li>A Note on the Artwork</li>
+<li><a href="applewebdata://0F46A178-B584-454A-9546-0B52F577104D#to-go-deeper">To Go Deeper</a></li>
+</ul>
+<h2>The Intellectual Arc of Carliss Baldwin</h2>
+<p>Baldwin took a winding journey to modularity theory. "I wanted to be an investment banker," she told me. As an undergraduate at MIT, she studied under Nobel Prize winner Robert Merton &mdash; before his first major paper was published &mdash; and developed an early fluency in options theory. She went on to Harvard Business School, where she "fell in love with manufacturing," (a sentiment I personally appreciate having started my career in a semiconductor fab followed by a BMW factory) then earned her doctorate. She returned briefly to MIT as an assistant professor before being hired at Harvard, where she would spend the rest of her career.</p>
+<p>The turn came in the mid-1980s when <a href="https://en.wikipedia.org/wiki/Kim_B._Clark">Kim Clark</a>, then leading Harvard's Production and Operations Management Group, needed a finance colleague for an interdisciplinary interest group &mdash; a special center-like structure at Harvard Business School that required members from more than one unit to receive funding from the dean. Baldwin was, by her own cheerful admission, partly "a token" &mdash; someone from outside the unit to satisfy that bureaucratic requirement. But she started attending the group's seminars, where practitioners from the computer industry kept talking about something called "modularity." Nobody in academia quite knew what to do with the concept.</p>
+<p>Baldwin did. "It was immediately, transparently obvious to me," she recalled. "This was a real options play." Sun Microsystems was beating Apollo Computer not because of superior components but because its architecture was more modular &mdash; and modularity was turning an option on an integrated portfolio into a portfolio of options. This was more than a metaphor. It represented a formal mathematical proposition, like what Robert Merton had proved: a portfolio of options is worth more than an option on a portfolio.</p>
+<p>Although the insight was powerful in hindsight, <a href="https://www.jstor.org/stable/4532473">like many interdisciplinary breakthroughs in academia</a>, it was difficult to publish. Baldwin and Clark endured five rounds of review at a prestigious management journal, with some referees wanting the paper shortened by a third and others requesting a tutorial in option theory. Baldwin walked into Clark's office &mdash; who had by then become Dean of HBS &mdash; and said: "This isn't working. We have to write a book."</p>
+<p><a href="https://direct.mit.edu/books/monograph/1856/Design-Rules-Volume-1The-Power-of-Modularity"><em>Design Rules, Volume 1: The Power of Modularity</em></a> appeared after years of work 2000 on the day the dot-com bubble burst. It traced the origins of modularity in computing back to John von Neumann's architecture for the modern computer, through IBM's landmark System/360, and developed a complete theoretical framework for understanding how modular designs create value and evolve. Baldwin estimated that the option value of splitting a design into independent modules could produce a fivefold increase in system value; combined with parallel experimentation, up to twenty-five-fold.</p>
+<p>"There's nobody out there who thinks this is interesting, except me and you and Barbara, our editor," Baldwin told Clark. She was proven wrong, but it took time. Engineers started inviting her to speak because the framework was true to what they saw. "I was giving them a language for what many of them instinctively wanted to do," she said.</p>
+<p>An obstacle to the always-planned Volume 2 was what Baldwin calls "the sigma problem." Engineers loved the framework but kept asking a practical question: how do you estimate the probability distributions that option pricing models require? For years, Baldwin pointed them toward market data. Then the 2008 financial crisis rocked her faith in efficient markets &mdash; and she realized the question itself was wrong. Reading <a href="https://www.amazon.co.uk/End-Alchemy-Banking-Future-Economy/dp/0393247023">Mervyn King's <em>The End of Alchemy</em></a>, she found the concept she needed: <a href="https://www.amazon.co.uk/Radical-Uncertainty-Mervyn-King/dp/1408712598">radical uncertainty</a>, where probability distributions for genuinely novel technologies simply do not exist and which cannot be resolved. You cannot estimate sigma because there is no sigma to estimate.</p>
+<p>This was intellectually liberating. She went back to Merton's early theorems and found propositions that require no assumptions about probability distributions at all &mdash; then rebuilt her theoretical apparatus on that foundation.</p>
+<p>Baldwin retired from Harvard in 2018, providing her more time to finish <a href="https://direct.mit.edu/books/oa-monograph/5887/Design-Rules-Volume-2How-Technology-Shapes"><em>Design Rules, Volume 2: How Technology Shapes Organizations</em></a>, which was published in 2024. It broadened the framework from computers to all technologies &mdash; from medieval ironsmiths to container shipping to modern platform ecosystems &mdash; and introduced new tools, including value structure analysis, the theory of bottlenecks, and the spectrum of complementarity. It is, in my view, one of the most important books on strategy and organization published in recent years.</p>
+<h2>Baldwin&rsquo;s Core Frameworks</h2>
+<p>What follows is my translation of Baldwin&rsquo;s concepts most relevant to strategy leaders, organized in three clusters.</p>
+<h3><strong>1. Architecture and Modularity</strong></h3>
+<p>The foundational concept is the design rule. Every complex system has an architecture: a set of decisions about how the system is divided into parts, how those parts interact, and how you verify the parts work. Baldwin formalizes this as three elements:</p>
+<ol>
+<li>the <strong>architecture</strong> itself (what the modules are and what they do),</li>
+<li>the <strong>interfaces</strong> (how modules connect and communicate), and</li>
+<li>the <strong>tests</strong> (how you verify modules work correctly).</li>
+</ol>
+<p>These three elements constitute the "visible information" that all participants in the system must conform to. Everything else &mdash; the internal workings of each module &mdash; can be hidden.</p>
+<p>This distinction between visible and hidden information is the engine of modularity's power. When a system is properly modularized, module designers need not know how other modules work internally. They only need to conform to the interfaces. This enables independent work, parallel experimentation, and distributed innovation &mdash; but it requires substantial upfront investment in getting the architecture, interfaces, and tests right.</p>
+<p>Baldwin's six modular operators describe every possible way a modular system can change:</p>
+<ol>
+<li><strong>Splitting</strong>&nbsp;divides an integral system into independent modules &mdash; the foundational act of modularization</li>
+<li><strong>Substitution</strong>&nbsp;replaces one module with an alternative &mdash; the basis of competition</li>
+<li><strong>Augmenting</strong>&nbsp;adds new modules</li>
+<li><strong>Excluding</strong>&nbsp;removes them</li>
+<li><strong>Inverting</strong>&nbsp;takes hidden information and makes it visible, creating new shared standards</li>
+<li><strong>Porting</strong>&nbsp;makes a module work across multiple systems</li>
+</ol>
+<p>These six operators are argued to be &ldquo;complete&rdquo;, meaning any design structure can be generated from any other through some sequence of operator steps. They are, in effect, the grammar of how complex systems evolve.</p>
+<p>Once a design is truly modular, it evolves through what Baldwin calls "decentralized search by many designers for valuable options embedded in the modular operators." No central architect needs to give permission. The possibilities are inherent in the modularity itself. This is what happened in the computer industry: what had been one firm &mdash; IBM &mdash; became roughly a thousand firms across sixteen sub-industries, all innovating in parallel within a shared architectural framework.</p>
+<h3><strong>2. Value Structure and Bottlenecks</strong></h3>
+<p>In Volume 2, Baldwin introduces a new method &mdash; value structure analysis &mdash; for reasoning about technologies under radical uncertainty. The method represents a technology as a system of functional components linked by complementary relationships. Each component is either essential or optional. Each can be traced back to a set of tasks and transfers in the underlying task network.</p>
+<p>The critical insight is the theory of bottlenecks. A <strong>technical bottleneck</strong> is an unsolved problem that impedes the system's performance, such as aircraft control in 1901, resist chemistry in semiconductors, the "cold start" problem in platform businesses. Solving a technical bottleneck creates value for the entire system.</p>
+<p>A <strong>strategic bottleneck</strong> is something more: a component that is:</p>
+<ol>
+<li><strong>essential</strong> (the system cannot function without it),</li>
+<li><strong>unique</strong> (there is no viable substitute), and</li>
+<li><strong>proprietary</strong> (it is controlled by a profit-seeking agent).</li>
+</ol>
+<p>Value capture flows to strategic bottleneck owners. This is why Intel and Microsoft captured most of the PC industry's profits for decades, and why Apple, Google, TSMC, and Nvidia dominate today. If a component is essential but not unique, it becomes a commodity. If essential and unique but not proprietary, it becomes a public good. Only the combination of all three creates a strategic bottleneck.</p>
+<p>Baldwin also introduces the spectrum of complementarity, which explains why different technologies call for different organizational forms. When components are perfectly strong complements &mdash; remove any one and the whole system fails, as in a synchronized assembly line &mdash; tight coordination under unified governance is required. When components are very weak complements with stand-alone value, independence works fine. In the middle, where components are complementary enough to require coordination but also reward autonomy and experimentation, ecosystems thrive. Where a technology sits on this spectrum determines the right organizational form.</p>
+<p>This leads to her distinction between two paradigms. <strong>Flow production</strong> processes are sequential, synchronized, and optimized for throughput and efficiency. Bottlenecks are bad &mdash; they constrain output. <strong>Platform systems</strong> comprise a core set of essential elements plus optional complements, optimized for variety and evolvability. Uncertainty is embraced because options create value. The internal metrics that make flow production excellent &mdash; variance reduction, predictability, efficiency &mdash; can actively destroy the value of a platform, which depends on variance and options.</p>
+<p>Organizations optimized for one paradigm can struggle to build the other.</p>
+<h3><strong>3. Organization and Mirroring</strong></h3>
+<p>Beneath every organization is what Baldwin calls a <strong>task network</strong>: a web of tasks and transfers of material, energy, and information. Where dependencies between tasks are few and simple, she identifies "thin crossing points" where transactions are cheap and organizational boundaries naturally form. Where dependencies are numerous and complex &mdash; "thick crossing points" &mdash; transactions are expensive, and these areas become what she calls "transaction-free zones," managed by organizations with more direct coordination mechanisms. In my post on <a href="https://platformthinkinglabs.com/sangeet-choudhary/">Sangeet Paul Choudary</a>'s book <a href="https://www.amazon.co.uk/Reshuffle-wins-restacks-knowledge-economy-ebook/dp/B0DTKW6NQV"><em>Reshuffle</em></a> (<a href="https://www.linkedin.com/pulse/strategy-book-breakdown-choudarys-reshuffle-method-zimmerman-9upye/?trackingId=wKnY8wr7T96MMR7BkwzYqw%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/strategy-book-breakdown-choudarys-reshuffle-and-the-strategy-method-1a7e57d51ce0">Medium</a>, <a href="https://substack.com/home/post/p-172360623">Substack</a>), which is highly relevant to Baldwin's work, I explain how BMW, my previous employer, was organized to maximise thin crossing points, and that I oversaw a rare thick crossing point, in vehicle launch management.</p>
+<p>This structural view yields the <strong>mirroring hypothesis</strong>: organizations tend to mirror the technical architecture of the systems they produce (aside: for several years, I worked from <a href="https://en.wikipedia.org/wiki/BMW_Headquarters">BMW&rsquo;s headquarters building</a>, built to resemble the company&rsquo;s core technology &ndash; a four-cylinder engine &ndash; as a physical manifestation of Baldwin&rsquo;s principle). Modules become the products of specific firms; interfaces become markets. Baldwin and her collaborator Lyra Colfer studied over one hundred cases and found that strict mirroring was the dominant pattern in just over half, with a further fifth percent exhibiting "partial mirroring": organizations that drew their knowledge boundaries more broadly than their task boundaries. The remaining cases fell into other predictable exceptions, including the use of digital technology as a substitute for colocation, formal and relational contracts that sustain transactions at thick crossing points, and tight-knit teams that deliberately create modular systems. Partial mirroring is common and sometimes optimal. For example, a tight-knit team within a single firm can create a modular technical system if they see merit in doing so. And thick crossing points can be managed through relational contracts and trust rather than integration.</p>
+<p>"Breaking the mirror", deliberately decoupling organizational structure from existing technical architecture to enable innovation or strategic repositioning, can be highly strategic. When I asked Baldwin about her advice on this for strategy leaders, she was direct: it "needs to come from very high up." It requires leadership conviction, and it is hard because people whose credentials and experience are rooted in the existing architecture have powerful reasons to resist, requiring the kind of courage I discussed recently with her colleague Ranjay Gulati (<a href="https://www.linkedin.com/pulse/science-strategic-courage-conversation-professor-ranjay-zimmerman-gg96e/?trackingId=ds4M1lOwS6a3CsyCES07ag%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/the-science-of-strategic-courage-a-conversation-with-professor-ranjay-gulati-27cf99be3048">Medium</a>, <a href="https://substack.com/home/post/p-185123150">Substack</a>).</p>
+<p>Volume 2 also identifies three distinct forms of organization that respond to different technological requirements:</p>
+<ol>
+<li><strong>corporations</strong> (unified governance, authority, hierarchy),</li>
+<li><strong>commons organizations</strong> (distributed governance, shared resource stewardship), and</li>
+<li><strong>open collaborative projects</strong> (distributed governance, no formal boundaries, radical transparency).</li>
+</ol>
+<p>The emergence of open source software and platform ecosystems in the late twentieth century demonstrated that different technologies call for genuinely different organizational forms &mdash; not merely different management styles applied within the same structure.</p>
+<h2>Applying Baldwin's Frameworks in Strategy</h2>
+<p>As with previous breakdowns in this series, I want to map these frameworks to McKinsey's <a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win">Building Blocks of Strategy Design, Mobilization, and Execution</a>, which I helped develop. These building blocks do not reflect a rigid process &mdash; they represent the fundamental activities that matter for great strategy outcomes.</p>
+<h3><strong>Align on Your Strategic Challenge</strong></h3>
+<p>One of the most clarifying questions a strategy team can ask, using Baldwin's frameworks, is whether their organization still mirrors their technology in a productive way &mdash; or whether it has calcified around an architecture that is changing.</p>
+<ol>
+<li><strong> Diagnose whether your organization still mirrors its technology productively.</strong>This matters because when technologies shift, the mirror often lags. The organizational structure persists even after the technical architecture it was built around has been superseded. Baldwin's Volume 1 tells this story vividly through IBM's loss of control over the PC: the company modularized its hardware with open interfaces, inadvertently creating thin crossing points where competitors like Compaq could attach &mdash; and where Intel and Microsoft could seize strategic bottlenecks. The organizational implications took years to register.</li>
+<li><strong> Ask whether AI is changing the modular boundaries of your industry.</strong>Baldwin observed to me that in AI, "it looks like the older companies are all surviving" &mdash; suggesting the technology may be functioning as a sustaining force rather than a disruptive one, at least so far. The question is whether AI is changing the modular boundaries of industries in ways that will eventually require breaking the mirror.</li>
+</ol>
+<p>Our <a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win">Strategy Champions research</a> shows that strength in aligning on the true strategic challenge is one of the biggest differentiators of top-performing companies, especially under higher uncertainty. Baldwin's work gives strategy teams a structural vocabulary for the question that matters most: what is actually changing?</p>
+<h3><strong>Assess Through Multiple Lenses</strong></h3>
+<p>Value structure analysis provides an entirely different assessment lens than traditional market or financial analysis.</p>
+<ol>
+<li><strong> Determine whether your advantage is flow-based or platform-based.</strong>The distinction between flow production and platform systems is a powerful framing. If you have competitive advantage, is it built on controlling bottlenecks in a flow, or on attracting complements to a platform? Are you optimizing for throughput or for variety? Many companies are attempting both simultaneously. Baldwin's framework explains structurally why this is so difficult: the internal metrics for each paradigm are in direct tension.</li>
+<li><strong> Map your system's functional components using value structure analysis.</strong>Map your system's functional components. Determine which are essential and which are optional. Identify where the thin crossing points sit. These are natural boundaries for markets and outsourcing. Identify where thick crossing points create coordination challenges that your organization must internalize.</li>
+<li><strong> Find your technical and strategic bottlenecks.</strong>Above all, find your bottlenecks. Technical bottlenecks reveal where performance is constrained and where solving problems creates value for the whole system. Strategic bottlenecks reveal where value is being captured, and whether your current profit sources are genuinely essential, unique, and proprietary, or whether they are commodities that competition could erode. As Baldwin writes, "as the technology evolves, new technical bottlenecks will emerge in different parts of the system." Tracking these shifts is a strategic discipline.</li>
+<li><strong> Assess your position on the spectrum of complementarity.</strong>How tightly coupled are the components of your business? If complementarity is weakening &mdash; components becoming more independent, perhaps because AI is enabling tasks that once required rich coordination to be performed autonomously &mdash; you may be over-integrated for your technology. If complementarity is strengthening, your ecosystem may be too loose.</li>
+</ol>
+<p><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win">Strategy Champions research</a> shows that companies facing higher uncertainty are much more likely to differentiate themselves through the quality of their assessment of market scenarios and opportunities. Value structure analysis, focused on bottlenecks and the degree of complementarity, provides a structural lens that competitors may not be using.</p>
+<h3><strong>Explore Bold Value-Creating Strategic Moves</strong></h3>
+<p>Baldwin's concepts provide a vocabulary for strategic moves that extends well beyond the conventional playbook.</p>
+<ol>
+<li><strong> Use the six modular operators as a vocabulary for strategic moves.</strong>Splitting is the act of modularizing part of your business to enable independent innovation: creating internal platforms, for example. Substitution is enabling or preparing for competitive replacement of components, from multi-sourcing strategies to building competitive alternatives. Augmenting means adding new capabilities or complements to an existing system. Excluding means simplifying by removing components to create focused, minimal offerings, as DEC did with the minicomputer, building a modular computer family without IBM's massive investment. Inverting means taking hidden, duplicated capabilities and making them shared standards, the logic behind shared services and internal standardization. Porting means making your offering work across multiple platforms or systems. Together these operators arguably describe every possible architectural move. This means the vocabulary is sufficient for describing any strategic action that changes the structure of a modular system.</li>
+<li><strong> Apply</strong><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-real-power-of-real-options"><strong>option value thinking</strong></a><strong> to evaluate investments under uncertainty.</strong>The option value framework is equally important for how organizations evaluate these moves. Traditional ROI analysis systematically undervalues modular investments because it cannot account for option value under genuine uncertainty. Baldwin quotes Andy Grove of Intel, asked about the ROI on his e-commerce investments: "Are you crazy? This is Columbus and the New World. What was his ROI?" For genuinely novel technologies, the distributions required for standard financial analysis do not exist. But you can reason about the structure of value: which components are essential, where options exist, and how modularity multiplies the opportunities for experimentation.</li>
+<li><strong> Pursue risk, modularity, and openness as complementary investments.</strong>Baldwin also shows that in platform systems, risk, modularity, and openness are supermodular complements &mdash; investing in all three creates more value than investing in one or two alone. This "trio of complementary investments" is a guide for leaders building platform strategies: investment in exploring novel technologies, investment in modular architectures that allow mix-and-match flexibility, and investment in attracting external participants to your system should be pursued together, not sequentially.</li>
+</ol>
+<p>Our <a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win">Strategy Champions research</a> shows that in lower-uncertainty environments, the best companies excel at calibrating the right level of boldness. The modular operators provide a richer vocabulary for imagining moves. In higher-uncertainty environments, Strategy Champions are highly likely to excel at scenario thinking, and value structure analysis gives them a structural foundation for scenarios.</p>
+<h3><strong>Commit to a Coherent Set of Strategic Choices</strong></h3>
+<p>Baldwin's work leads to an important insight about strategic commitment: design rules are themselves strategic choices.</p>
+<ol>
+<li><strong> Embrace design rules as true strategic choices.</strong>Choosing your architecture &mdash; what modules exist, how they connect, what is visible and what is hidden &mdash; is one of the most consequential decisions a company can make. IBM's choice to modularize the PC with open interfaces enabled an industry but transferred most of the value to others. Apple's choice to keep its architecture more closed captured more value but limited ecosystem breadth. Both were coherent. Both had enormous consequences that flowed directly from architectural decisions.</li>
+<li><strong> Decide clearly whether to pursue or defend a strategic bottleneck.</strong>The question of whether to pursue or defend a strategic bottleneck is equally fundamental. Can you create or control a component that is essential, unique, and proprietary? This is the most powerful strategic position in a modular system. But bottlenecks are dynamic. Technical change can dissolve existing ones and create new ones. When you cannot control a bottleneck &mdash; and most firms cannot &mdash; Baldwin shows that you compete on quality, reputation, and flow efficiency, becoming what she calls the "inframarginal" provider: the one whose costs are low enough or quality high enough to earn profit even when the marginal competitor cannot.</li>
+<li><strong> Commit to an ecosystem governance model.</strong>Ecosystem governance is another commitment-level choice. One-apex or multi-apex architecture? Open or closed platform? Baldwin's work shows that the structure of the design influences the structure of firms and markets that form around it. These are not decisions to be made lightly or revisited often.</li>
+</ol>
+<p><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win">Strategy Champions research</a> consistently shows that strength in the Commit building block is the biggest differentiator across our Building Blocks of Strategy. Baldwin's work explains that architectural choices are the deepest form of strategic commitment. Documenting the assumptions beneath them &mdash; one of the key differentiating capabilities of top performers &mdash; is especially important when those commitments concern the very structure of how your organization creates value.</p>
+<h3><strong>Mobilize and Execute</strong></h3>
+<p>If your strategy requires a new technical architecture, the mirroring hypothesis predicts you will eventually need <a href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/a-new-operating-model-for-a-new-world">a new organizational architecture and operating model too</a>. This is not change management in the conventional sense. It is architectural work.</p>
+<ol>
+<li><strong> Align organizational architecture to your new technical architecture.</strong>Understanding the technical dependencies &mdash; the thick and thin crossing points &mdash; tells you where organizational friction will be greatest and where you have degrees of freedom.</li>
+<li><strong> Match organizational forms to technological requirements.</strong>Baldwin's taxonomy of organizational forms &mdash; corporations, commons, open collaborative projects &mdash; provides a richer vocabulary than "centralized versus decentralized." Different parts of your organization may need different forms: a flow production group managed with hierarchy and direct authority alongside a platform team managed with distributed governance. Recognizing this structural variety &mdash; rather than trying to manage everything the same way &mdash; is itself a strategic capability.</li>
+</ol>
+<h2>Seeing the Craft of Strategy Through a Modular Lens</h2>
+<p>Baldwin's frameworks were introduced by explaining technical systems. But one of the most interesting implications of her work is that it can be turned inward on the practice of strategy itself.</p>
+<p>When I shared my belief that <a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win">McKinsey's Building Blocks of Strategy</a> &mdash; Design, Mobilization, and Execution, each with constituent activities &mdash; could act as the architecture for a modularization of a practice like strategy, she agreed.</p>
+<p>This matters more than it might appear. In a <a href="https://medium.com/@francois.chollet/the-impossibility-of-intelligence-explosion-5be4a9eda6ec">2017 essay</a> that has aged remarkably well, AI researcher <a href="https://fchollet.com/">Fran&ccedil;ois Chollet</a>argued that most of our intelligence is not in our brains at all. It is externalized &mdash; distributed across what he calls "cognitive prosthetics": language, mathematical notation, books, software, other people, etc. These are not merely inputs to human thinking. They are, as Chollet puts it, "literally external cognitive processes, non-biological ways to run threads of thought and problem-solving algorithms &mdash; across time, space, and importantly, across individuality." <a href="https://medium.com/@whitneyzim/what-does-it-mean-for-twitter-to-be-great-again-45a41615f29a">I used the concept in 2017</a> to argue that, in its golden age, Twitter was a constructive cognitive prosthetic and was increasingly shifting towards a net-destructive one.</p>
+<p>If Chollet is right &mdash; and the explosion of generative AI makes his argument more compelling, not less &mdash; then the question for strategy leaders is not whether AI will augment strategic thinking. It is whether you have the sufficiently visible architecture required to make that augmentation coherent. A cognitive prosthetic is only as useful as your ability to integrate it into your own thinking process. An AI that generates competitive analyses, scenario models, or strategic options creates value only if those outputs can be plugged into a broader system of strategy-related activity.</p>
+<p>This is where Baldwin's modularity theory and McKinsey's Building Blocks of Strategy converge. The Building Blocks provide a shared language for the activities that constitute strategy work &mdash; a visible architecture with defined interfaces between activities like aligning on the challenge, assessing through multiple lenses, exploring moves, and committing to choices. That language is a cognitive prosthetic in its own right: it enables strategy leaders to see their own work more clearly, communicate about it more precisely, and &mdash; critically &mdash; identify which activities can be augmented by AI, which require human judgment, and how the pieces fit together.</p>
+<p>Without such an architecture, AI augmentation of strategy becomes what Baldwin would recognize as an unmodularized system: tightly coupled, difficult to test at the component level, and dependent on tacit integration by whoever happens to be in the room. With it, strategy leaders can do what the best technology architects have always done &mdash; define the modules, specify the interfaces, and enable many contributors to work in parallel while the whole remains coherent.</p>
+<p>Across this newsletter, I have been mapping frameworks from different thinkers to these same building blocks &mdash; Baldwin in this post, Choudary's Reshuffle (<a href="https://www.linkedin.com/pulse/strategy-book-breakdown-choudarys-reshuffle-method-zimmerman-9upye/?trackingId=wKnY8wr7T96MMR7BkwzYqw%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/strategy-book-breakdown-choudarys-reshuffle-and-the-strategy-method-1a7e57d51ce0">Medium</a>, <a href="https://substack.com/home/post/p-172360623">Substack</a>), Gavin's Thinking Historically (<a href="https://www.linkedin.com/pulse/strategy-book-breakdown-francis-j-gavins-thinking-method-zimmerman-towhe/?trackingId=CAIqXO5TSLiLQgbwzaKOng%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/strategy-book-breakdown-francis-j-gavins-thinking-historically-and-the-strategy-method-667fd65f3ffc">Medium</a>, <a href="https://substack.com/home/post/p-183518444">Substack</a>), and my conversation with Gulati on courage (<a href="https://www.linkedin.com/pulse/science-strategic-courage-conversation-professor-ranjay-zimmerman-gg96e/?trackingId=ds4M1lOwS6a3CsyCES07ag%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/the-science-of-strategic-courage-a-conversation-with-professor-ranjay-gulati-27cf99be3048">Medium</a>, <a href="https://substack.com/home/post/p-185123150">Substack</a>). Each offers distinct techniques. But because the building blocks provide a shared architecture, the techniques are composable: a strategy team can draw from any combination depending on their situation. The figure below illustrates this by showing how a growing library of techniques from diverse sources can be organized around a common set of building blocks.</p>
+<p><strong>(Text from figure included for GenAI)</strong></p>
+<p><strong>Align on the strategic challenge</strong></p>
+<p><em>Baldwin:</em></p>
+<ul>
+<li>Diagnose whether your organization still mirrors its technology</li>
+<li>Ask whether AI is changing the modular boundaries of your industry</li>
+</ul>
+<p><em>Choudary:</em></p>
+<ul>
+<li>Reframe the core problem around coordination</li>
+<li>Identify the right trend in unbundling and rebundling</li>
+<li>Calibrate your aspiration with the right strategic posture</li>
+</ul>
+<p><em>Gavin:</em></p>
+<ul>
+<li>Start the timeline in the right place</li>
+<li>Ask what level of analysis is right</li>
+</ul>
+<p><em>Gulati:</em></p>
+<ul>
+<li>Adopt a beginner's mind to challenge assumptions embedded in organizational identity</li>
+</ul>
+<p><strong>Assess through multiple lenses</strong></p>
+<p><em>Baldwin:</em></p>
+<ul>
+<li>Determine whether your advantage is flow-based or platform-based</li>
+<li>Map functional components using value structure analysis</li>
+<li>Find your technical and strategic bottlenecks</li>
+<li>Assess your position on the spectrum of complementarity</li>
+</ul>
+<p><em>Choudary:</em></p>
+<ul>
+<li>Map the migration of value by tracking constraints</li>
+<li>Assess the entire system, not just the task</li>
+<li>Clarify your role: tool, engine, or infrastructure</li>
+<li>Diagnose coordination breakdowns</li>
+</ul>
+<p><em>Gavin:</em></p>
+<ul>
+<li>Consider other actors' perspectives and interests</li>
+<li>Distinguish blips from structural shifts</li>
+</ul>
+<p><em>Gulati:</em></p>
+<ul>
+<li>Use sensemaking to act your way toward clarity under uncertainty</li>
+</ul>
+<p><strong>Explore bold value-creating moves</strong></p>
+<p><em>Baldwin:</em></p>
+<ul>
+<li>Use the six modular operators as a vocabulary for strategic moves</li>
+<li>Apply option value thinking to evaluate investments under uncertainty</li>
+<li>Pursue risk, modularity, and openness as complementary investments</li>
+</ul>
+<p><em>Choudary:</em></p>
+<ul>
+<li>Consider whether to rebundle from a tool to a solution</li>
+<li>Consider seizing a control point</li>
+<li>Consider a coordination strategy, with or without consensus</li>
+</ul>
+<p><em>Gavin:</em></p>
+<ul>
+<li>Imagine different pasts to imagine different futures</li>
+<li>Use historical analogies rigorously &mdash; or don't use them at all</li>
+</ul>
+<p><em>Gulati:</em></p>
+<ul>
+<li>Adopt a "playing to win" posture to calibrate boldness toward upside</li>
+</ul>
+<p><strong>Commit to coherent strategic choices</strong></p>
+<p><em>Baldwin:</em></p>
+<ul>
+<li>Embrace design rules as true strategic choices</li>
+<li>Decide whether to pursue or defend a strategic bottleneck</li>
+<li>Commit to an ecosystem governance model</li>
+</ul>
+<p><em>Choudary:</em></p>
+<ul>
+<li>Document strategic assumptions for rapid learning</li>
+<li>Reframe your value creation story</li>
+</ul>
+<p><em>Gavin:</em></p>
+<ul>
+<li>Craft a narrative that explains causality, not just intent</li>
+<li>Accept radical uncertainty &mdash; and act anyway</li>
+</ul>
+<p><em>Gulati:</em></p>
+<ul>
+<li>Frame strategic choices as a quest narrative: vision, obstacles, practical steps</li>
+<li>Design "voice and choice" within strategic guardrails</li>
+</ul>
+<p>This composability has a practical implication. The abundance of strategic frameworks and techniques available to leaders today that I described recently in my post on the Taming of Scarcity and Problems of Plenty in Strategy (<a href="https://www.linkedin.com/pulse/taming-scarcity-problems-plenty-strategy-whitney-d-zimmerman-covse/?trackingId=h7f2rnmFTI%2B6I96k0bQyKg%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/the-taming-of-scarcity-and-problems-of-plenty-in-strategy-af4a70bdaa17">Medium</a>, <a href="https://substack.com/home/post/p-187236655">Substack</a>) is, to use Baldwin's language, a design problem. Without a shared architecture, each new framework is another disconnected input competing for attention &mdash; valuable in isolation, difficult to integrate. With a shared architecture, new thinking has a place to land. A strategy leader who has internalized the building blocks can encounter a new framework, identify which activities it enriches, and integrate it without losing coherence. Generative AI makes this even more powerful: a strategist working with AI that understands both the building blocks and the techniques available within each one can rapidly curate and assemble a fit-for-purpose methodology from the best available thinking. This is, at its core, Baldwin's insight about modularity making abundance productive, applied to the craft of strategy itself.</p>
+<p>There is an implication here for those building AI-enabled tools for strategy and decision-making as well. Baldwin's theory predicts that the tools that create the most value in a modular system are those that conform to a shared architecture, producing outputs which can be integrated into a broader system of activity at clearly defined interfaces. An AI agent for competitive assessment, scenario generation, or strategic option evaluation creates far more value if its outputs are designed to plug into a strategy process at a known point, with information structured in a way that connects to what comes before and after it. Tools that operate as standalone black boxes &mdash; no matter how sophisticated internally &mdash; face the same challenge Baldwin identifies in any unmodularized system: they are hard to test, hard to combine, and dependent on manual integration. The most valuable strategy tools of the coming years will likely be those that are designed to be modular components of a larger process, not self-contained solutions.</p>
+<p>Baldwin's central insight is that modularity is what makes abundance productive rather than problematic. Modularity turned the overwhelming complexity of computer design &mdash; where the space of possible configurations was astronomical &mdash; into the most innovative, interdisciplinary, productivity-driving industry in history. It did this not by reducing complexity but by structuring it. McKinsey&rsquo;s Building Blocks of Strategy may serve a similar function: an architecture that enables strategy leaders to ensure diverse contributions to strategy &mdash; human and artificial &mdash; can productively combine.</p>
+<p>For strategy leaders navigating an era of extraordinary technological shocks, Baldwin's four decades of research point to a consistent conclusion: the answer to overwhelming complexity is not less complexity. It is better architecture.</p>
+<h2>A Note on the Artwork</h2>
+<p>Sir John Soane's Drawing Office, Sir John Soane's Museum, London. Photo: Gareth Gardner, 2023</p>
+<p>The image accompanying this post is the <a href="https://drawingoffice.soane.org/about-drawing-office">Drawing Office</a> at <a href="https://www.soane.org/">Sir John Soane's Museum</a> in London &mdash; the oldest surviving architect's office in the world, recently restored and opened to the public for the first time in its two-hundred-year history.</p>
+<p><a href="https://en.wikipedia.org/wiki/John_Soane">Soane</a> was one of the greatest English architects of the <a href="https://en.wikipedia.org/wiki/Georgian_era">Georgian era</a>, responsible for the <a href="https://www.bankofengland.co.uk/museum/online-collections/archive-gallery/soane-bank">Bank of England</a>, among other landmarks. He was also Professor of Architecture at the Royal Academy, and his home served simultaneously as a working office, a teaching space, and what contemporaries called "an Academy of Architecture." The Drawing Office sits at the heart of this: a small, ingeniously designed mezzanine platform, suspended on metal columns above the museum corridor below, lit by skylights that illuminated both the workspace and the collections beneath it. At its peak, six pupils worked here, shoulder to shoulder at long desks, twelve hours a day, six days a week.</p>
+<p>What makes the Drawing Office remarkable for this post's purposes is what crowds its walls. Roughly 250 plaster casts of classical architectural elements &mdash; cornices, capitals, friezes, ornamental fragments &mdash; taken from ancient Greek and Roman buildings, hang on every available surface, even jostling on the ceiling joists. These were educational and generative, not decorative. Soane immersed his pupils in a vocabulary of architectural forms so they could study each element independently and recombine them in original compositions. During the recent restoration, conservators discovered that Soane had deliberately placed models of his own buildings alongside the ancient casts that inspired them, making the lineage between source and new creation visible.</p>
+<p>The casts are in a sense, in Baldwin's terms, modules: self-contained components of a larger architectural language, each conforming to visible design rules of classical proportion and order, each helping to manage complexity that the apprentice gradually learns to master. The office itself is the architecture that makes the modules productive &mdash; a workspace designed so that the vocabulary is always present, always available for recombination, always in dialogue with the original designs being produced at the desks below.</p>
+<p>This mirrors the argument of this post. Strategy leaders today face an abundance of frameworks, techniques, and AI-enabled capabilities. Without a shared architecture &mdash; a set of building blocks with defined interfaces &mdash; that abundance is overwhelming: fragments without a wall to hang on. With such an architecture, the fragments become a vocabulary. Each technique can be studied independently, applied selectively, and composed with others into original strategic work. The building blocks serve the same function as Soane's office: they create the environment in which diverse contributions combine into coherent design.</p>
+<p>Last year, I had the pleasure of hosting a dinner for 25 chief strategy officers of <a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win">Strategy Champion companies</a> at Sir John Soane's Museum. On our tour through the carefully designed and curated building, it was difficult not to think about what it means to build an environment for strategic thinking &mdash; one where the right tools, the right vocabulary, and the right people come together in a space deliberately designed for the work. Soane understood that great architecture does not emerge from a blank page. It emerges from deep familiarity with a rich vocabulary of forms, structured by an architecture that supports the craft. Baldwin's research suggests the same is true of great strategy.</p>
+<h2>To Go Deeper</h2>
+<ul>
+<li>Carliss Y. Baldwin and Kim B. Clark, <a href="https://direct.mit.edu/books/monograph/1856/Design-Rules-Volume-1The-Power-of-Modularity">Design Rules, Volume 1: The Power of Modularity</a> (MIT Press, 2000)</li>
+<li>Carliss Y. Baldwin, <a href="https://direct.mit.edu/books/oa-monograph/5887/Design-Rules-Volume-2How-Technology-Shapes">Design Rules, Volume 2: How Technology Shapes Organizations</a> (MIT Press, 2024)</li>
+<li><a href="https://academic.oup.com/icc/article/32/1/11/6868533">Carliss Y. Baldwin, "Design Rules: Past and Future,"</a> Industrial and Corporate Change 32, no. 1 (2023): 11&ndash;27</li>
+<li>Stefano Brusoni et al., <a href="https://academic.oup.com/icc/article/32/1/1/6972656">"The Power of Modularity Today: 20 Years of Design Rules,"</a> Industrial and Corporate Change 32, no. 1 (2023): 1&ndash;10</li>
+<li>My previous posts on Choudary's Reshuffle (<a href="https://www.linkedin.com/pulse/strategy-book-breakdown-choudarys-reshuffle-method-zimmerman-9upye/?trackingId=wKnY8wr7T96MMR7BkwzYqw%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/strategy-book-breakdown-choudarys-reshuffle-and-the-strategy-method-1a7e57d51ce0">Medium</a>, <a href="https://substack.com/home/post/p-172360623">Substack</a>), Gavin's Thinking Historically (<a href="https://www.linkedin.com/pulse/strategy-book-breakdown-francis-j-gavins-thinking-method-zimmerman-towhe/?trackingId=CAIqXO5TSLiLQgbwzaKOng%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/strategy-book-breakdown-francis-j-gavins-thinking-historically-and-the-strategy-method-667fd65f3ffc">Medium</a>, <a href="https://substack.com/home/post/p-183518444">Substack</a>), and my conversation with Gulati on courage (<a href="https://www.linkedin.com/pulse/science-strategic-courage-conversation-professor-ranjay-zimmerman-gg96e/?trackingId=ds4M1lOwS6a3CsyCES07ag%3D%3D">LinkedIn</a>, <a href="https://medium.com/@whitneyzim/the-science-of-strategic-courage-a-conversation-with-professor-ranjay-gulati-27cf99be3048">Medium</a>, <a href="https://substack.com/home/post/p-185123150">Substack</a>)</li>
+</ul>
+
+<!-- ARTICLE HTML END -->
+
+            </div>
+        </details>
+    </div>
+    
+    <div class="back-link">
+        <a href="https://www.linkedin.com/newsletters/7258844747895656448/">← Read on LinkedIn</a><br>
+        <a href="https://medium.com/@whitneyzim">← Read on Medium</a><br>
+        <a href="https://substack.com/@whitneydzimmerman">← Read on Substack</a>
+    </div>
+    
+    <script>
+        function getArticleTextWithLinks() {
+            const content = document.getElementById('article-content').cloneNode(true);
+            
+            // Convert links to "text (url)" format
+            const links = content.querySelectorAll('a');
+            links.forEach(link => {
+                const url = link.href;
+                const text = link.textContent;
+                // Only add URL if it's different from the text (not already a bare URL)
+                if (url && !text.includes(url)) {
+                    link.replaceWith(`${text} (${url})`);
+                }
+            });
+            
+            // Get text content, preserving paragraph breaks
+            const paragraphs = content.querySelectorAll('p, h1, h2, h3, h4, li');
+            let text = '';
+            
+            if (paragraphs.length > 0) {
+                paragraphs.forEach(p => {
+                    text += p.textContent.trim() + '\n\n';
+                });
+            } else {
+                text = content.textContent;
+            }
+            
+            return text.trim();
+        }
+        
+        function copyAndOpen(service) {
+            const articleText = getArticleTextWithLinks();
+            const prompt = `Please provide a comprehensive summary of the following article. Preserve the key insights and main arguments. If there are URLs in the text, you may access them for additional context if needed.\n\n---\n\n${articleText}`;
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(prompt).then(() => {
+                // Show success message
+                const status = document.getElementById('status');
+                status.className = 'status success';
+                status.textContent = '✓ Copied to clipboard! Paste in the new tab.';
+                
+                // Open the appropriate service
+                const urls = {
+                    claude: 'https://claude.ai/new',
+                    chatgpt: 'https://chat.openai.com/',
+                    gemini: 'https://gemini.google.com/app'
+                };
+                
+                window.open(urls[service], '_blank');
+            }).catch(err => {
+                alert('Could not copy to clipboard. Please try again.');
+                console.error(err);
+            });
+        }
+    </script>
+</body>
+</html>
