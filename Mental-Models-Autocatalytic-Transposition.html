@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL;LC — My Mental Models: Autocatalytic Transposition</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions h2 {
+            font-size: 1rem;
+            margin: 0 0 0.75rem 0;
+        }
+        
+        .instructions ol {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+        
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 2rem;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        
+        button:hover {
+            opacity: 0.85;
+        }
+        
+        .claude {
+            background: #d97706;
+            color: white;
+        }
+        
+        .chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+        
+        .gemini {
+            background: #4285f4;
+            color: white;
+        }
+        
+        .status {
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            display: none;
+        }
+        
+        .status.success {
+            display: block;
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .article-preview {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .article-preview summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .article-preview summary:hover {
+            color: #333;
+        }
+        
+        #article-content {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        #article-content a {
+            color: #2563eb;
+        }
+        
+        .back-link {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+        
+        .back-link a {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Strategy Leader's Craft</h1>
+    <p class="subtitle">TL;LC (Too Long; Let's Chat) for: <strong>My Mental Models: Autocatalytic Transposition</strong></p>
+    
+    <div class="instructions">
+        <h2>How this works</h2>
+        <ol>
+            <li>Click your preferred AI below</li>
+            <li>The article text is copied to your clipboard</li>
+            <li>A new tab opens — just paste (Ctrl+V / Cmd+V)</li>
+        </ol>
+    </div>
+    
+    <div class="buttons">
+        <button class="claude" onclick="copyAndOpen('claude')">Use Claude</button>
+        <button class="gemini" onclick="copyAndOpen('gemini')">Use Gemini</button>
+        <button class="chatgpt" onclick="copyAndOpen('chatgpt')">Use ChatGPT</button>
+    </div>
+    
+    <div id="status" class="status"></div>
+    
+    <div class="article-preview">
+        <details>
+            <summary>View article text</summary>
+            <div id="article-content">
+                
+<!-- ARTICLE START -->
+
+              <div>
+<h1 dir="auto">My Mental Models: How Organizations and Markets&nbsp;Change</h1>
+</div>
+<div>
+<div dir="auto">
+<p><em>TL;LC (Too Long; Let&rsquo;s Chat) &mdash; this post is designed both to be read and to be used. Feed it to your favourite GenAI tool to explore the concepts and leverage the mental model, or use it as a lens: ask it to help you identify where autocatalytic transposition may be at work &mdash; or missing &mdash; in your own strategy work.</em></p>
+<h2>Contents</h2>
+<ul>
+<li>
+<p>The concept</p>
+</li>
+<li>
+<p>How it applies to markets</p>
+</li>
+<li>
+<p>How it applies to strategy and markets</p>
+</li>
+<li>
+<p>How it applies to strategy and organizations</p>
+</li>
+<li>
+<p>How it applies to the work of strategy leaders</p>
+</li>
+<li>
+<p>How to go deeper</p>
+</li>
+<li>
+<p>A note on the artwork</p>
+</li>
+<li>
+<p>A personal note</p>
+</li>
+<li>
+<p>A detailed overview of the mental model for GenAI use</p>
+</li>
+</ul>
+<h2>The concept</h2>
+<p>In 2012, <a href="https://en.wikipedia.org/wiki/John_F._Padgett" rel="nofollow ugc noopener">John Padgett</a> and <a href="https://en.wikipedia.org/wiki/Walter_W._Powell" rel="nofollow ugc noopener">Walter Powell</a> published <em><a href="https://en.wikipedia.org/wiki/The_Emergence_of_Organizations_and_Markets" rel="nofollow ugc noopener">The Emergence of Organizations and Markets</a></em>, a 600-page edited volume covering seven centuries of history &mdash; from Renaissance Florence to Silicon Valley biotech. At its core is a concept borrowed from biochemistry: autocatalysis.</p>
+<div>
+<div>
+<div>
+<p>Thanks for reading The Strategy Leader's Craft! Subscribe for free to receive new posts and support my work.</p>
+</div>
+</div>
+</div>
+<p><a href="https://en.wikipedia.org/wiki/Autocatalysis" rel="nofollow ugc noopener">Autocatalysis</a> describes a network of chemical reactions in which all the chemicals are continuously recreated by the reactions among them. It is the network definition of life. Destroy part of the network, and if the right cycles remain, it can reconstruct what was lost. Life persists because self-reinforcing cycles reproduce themselves even as individual components come and go.</p>
+<p>Padgett and Powell apply this to social systems. Products, people, and organizations replace chemicals. Skills, relational practices, and communication protocols replace reactions. An organization is alive when the interactions among its people and processes keep recreating the skills, relationships, and ways of working that define it. People leave, products change, markets shift &mdash; but the organization reproduces itself. This is what makes organizations durable. And what makes them so resistant to change.</p>
+<p>Transposition is their term for moving a practice from one domain to another, where it gets repurposed for a different function. Not a new tool for an old purpose. A new purpose for an old tool.</p>
+<p>Combine the two. Autocatalytic transposition is transposition that ignites new self-reinforcing cycles in the receiving domain. The transposed element becomes the seed of a new network that reproduces itself and tips the broader system into a fundamentally different configuration.</p>
+<p>Most transpositions fail. The receiving system&rsquo;s existing cycles resist the foreign element and repair themselves around it. Only when the transposition triggers its own reproductive cycle &mdash; when it becomes generative, not just additive &mdash; does something genuinely new emerge. That distinction &mdash; between a transplant that gets rejected and one that takes root and grows &mdash; is extraordinarily useful for understanding strategy. It sheds light on three dynamics in particular: how markets evolve, how strategy reshapes them, and how strategy works inside organizations to enable that.</p>
+<h2>How markets work</h2>
+<p>A market is a system of self-reinforcing cycles. Customer expectations reproduce through habit. Competitor behaviors reproduce through mimicry. Supply chains, pricing norms, regulatory structures &mdash; all form interlocking cycles that define &ldquo;the rules of the game.&rdquo; Those rules aren&rsquo;t really rules. They&rsquo;re the visible surface of cycles that have become dominant.</p>
+<p>Markets have a lifecycle. Early on, the cycles are fragile &mdash; behaviors haven&rsquo;t solidified, standards are contested, multiple logics compete. As a market matures, the cycles strengthen and the system gets efficient at reproducing itself. Eventually, the cycles become rigid: powerful but brittle. The system can handle a new entrant playing the same game. It can&rsquo;t handle changes that reconfigure how the pieces relate &mdash; what Baldwin would call architectural innovation, what Choudary would call unbundling.</p>
+<p>New market configurations almost never emerge from within the existing system&rsquo;s logic. They come from outside &mdash; from adjacent domains with structurally different ways of working. Padgett and Powell&rsquo;s cases show this across centuries. In Renaissance Florence, the master-apprentice relationship from domestic guilds was transposed into international merchant-finance through the city council, in response to political crisis. The result was the partnership system &mdash; something that, in outline, resembles modern venture capital. In Boston in the 1970s, the academic science lab was transposed from universities into the market by venture capitalists responding to new gene manipulation technologies, creating the dedicated biotechnology firm. In both cases, a way of working from one world ignited new self-reinforcing cycles in another.</p>
+<p>In our era, technology has been the most prolific source of transposition because platform economics, network effects, and data-driven optimization are so different from the logics of traditional industries. But regulatory change, financial innovation, geopolitical realignment, and cultural shifts can all do the same thing.</p>
+<p>The most consequential period for strategists is the transition zone &mdash; when existing cycles are weakening but new ones haven&rsquo;t consolidated. This gives you something conventional analysis doesn&rsquo;t: a way to read the structural health of a market&rsquo;s underlying logic, not just its growth rate.</p>
+<h2>How strategy changes markets</h2>
+<p>If that&rsquo;s how markets work, what does it look like when strategy changes them?</p>
+<p>The most audacious strategies don&rsquo;t compete within the existing system. They take a way of working from one domain and transplant it into a market where it ignites new cycles that reshape the landscape.</p>
+<p>Uber took platform logic &mdash; two-sided matching, algorithmic coordination, reputation systems, dynamic pricing &mdash; and transplanted it into urban transportation, where the existing system ran on medallion scarcity, dispatcher relationships, and regulatory protection. The new logic ignited its own cycles: more drivers, shorter wait times, more riders, more drivers. Once those cycles reached sufficient density, they became self-sustaining and displaced the old system.</p>
+<p>I explored this in a 2017 article on <a href="https://medium.com/@whitneyzim/network-evolution-and-invention-in-technological-bubbles-cd515569abf" rel="nofollow ugc noopener">network evolution and invention in technology bubbles</a>, noting both the power of Uber&rsquo;s autocatalytic replication and its downside &mdash; scaling so efficient it overrode judgment about where to replicate. And Uber&rsquo;s &ldquo;failure&rdquo; in China was simultaneously a success as a transposition event: the skills and practices that flowed through Uber into the Chinese entrepreneurial ecosystem seeded new cycles in bike sharing and beyond. The power came not from doing the existing thing better but from introducing a different set of self-reinforcing cycles from a different domain.</p>
+<p>Where the transposition comes from shapes the new market. If platform logic enters your industry, the new market will organize around platform economics. If you can identify which adjacent domain&rsquo;s logic is most likely to cross into yours, you can anticipate what the new structure will look like and position for it.</p>
+<p>The existing ecosystem will fight back. Customer habits, regulatory lobbying, switching costs, network effects &mdash; all work to neutralize the new logic. This is why commitment at scale matters. Below the threshold, new cycles die. Above it, they reshape everything.</p>
+<p>The ultimate prize is not just a good position in the new market. It&rsquo;s becoming part of the machinery that makes the new market run &mdash; a node the system&rsquo;s cycles flow through. Google became that for the ad-funded web. Nvidia&rsquo;s CUDA became that for AI development.</p>
+<p>Crises and shocks matter because they temporarily weaken the existing system&rsquo;s defences, creating windows when transpositions that would otherwise be overwhelmed can take hold. CUDA was a prepared transposition &mdash; Nvidia built it years before the AI market existed. The AI revolution was the shock that opened the window.</p>
+<p>For incumbents, this is a dilemma: you <em>are</em> the existing system. Partnerships become the way to bring in foreign logic without destroying yourself. If structured well &mdash; enough tension to keep the new logic distinct, enough integration to give it reach &mdash; the partnership becomes where transposition actually happens.</p>
+<h2>How strategy works inside organizations</h2>
+<p>The same dynamics play out inside organizations, often with even more force. An organization&rsquo;s production rules, communication protocols, decision-making patterns, and even the types of people it attracts all reproduce through daily interaction. This gives organizations continuity. It also makes them stubbornly resistant to strategic change.</p>
+<p>Strategy is the deliberate attempt to introduce new ways of working and make them self-reinforcing within a system whose existing logic is actively working to reject them.</p>
+<p>Hard choices &mdash; what to stop, what to deprioritize &mdash; aren&rsquo;t just about freeing resources. They&rsquo;re about weakening existing cycles enough that the organization can&rsquo;t repair itself around your intervention. This is why half-measures rarely work.</p>
+<p>Coherence matters because a single bold change is fragile in isolation. Transposition succeeds when multiple reinforcing elements are reconfigured together &mdash; pricing, processes, org structure, capabilities, culture. Incoherent choices scatter energy across disconnected interventions, none reaching the density needed for new cycles to form.</p>
+<p><a href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win" rel="nofollow ugc noopener">Mobilization</a> is not downstream implementation. It <em>is</em> the phase that determines everything. Padgett and Powell describe two stages: genesis &mdash; the initial transposition &mdash; and catalysis &mdash; the new practice percolating through networks, restructuring relationships, tipping the broader system. Strategy design is genesis. Mobilization is catalysis. And catalysis is where most strategies die. Resources flow back to familiar priorities. People revert to established practices. Governance reasserts old logic.</p>
+<p>This is what I mean when I write about &ldquo;strategy surviving your system.&rdquo; The existing organization is actively trying to reconstruct what was there before. Strategy survives when the new cycles become self-sustaining before the old system can repair itself.</p>
+<h3>How to use this mental model as a strategy leader</h3>
+<ol>
+<li>
+<p><strong>Figure out what&rsquo;s keeping the current game in place.</strong> Every market and organization has reinforcing patterns that keep things the way they are. Before you can change anything, understand what&rsquo; holding the current state together &mdash; and whether those patterns and personal pathways are strengthening or fraying.</p>
+</li>
+<li>
+<p><strong>Look outside your industry for the logic that could reshape it.</strong> The most consequential shifts come from someone importing a way of working from a completely different world. Ask: whose way of working, if transplanted into our market, would change everything?</p>
+</li>
+<li>
+<p><strong>If you&rsquo;re going to move, move big enough to matter.</strong> Most strategic initiatives get absorbed because they&rsquo;re not big enough to overcome the system&rsquo;s tendency to snap back. You need enough reinforcing changes happening simultaneously that the new way of working can sustain itself.</p>
+</li>
+<li>
+<p><strong>Don&rsquo;t treat mobilization as an afterthought.</strong> Making the strategic choice is only the beginning. The real work is getting the new way of working to spread and become self-sustaining. If you invest heavily in strategy design but underinvest in mobilization, you&rsquo;re planting seeds and walking away.</p>
+</li>
+<li>
+<p><strong>Invest in boundary spanners.</strong> Transformation travels through people who participate in multiple worlds &mdash; between functions, between your organization and its partners, between strategy and operations. When I worked at BMW in vehicle launch management, bridging development and production, I experienced this firsthand.</p>
+</li>
+<li>
+<p><strong>Prepare before the window opens.</strong> Build capabilities and partnerships before you need them. When a crisis weakens the existing system&rsquo;s grip, you&rsquo;re ready to move with conviction.</p>
+</li>
+<li>
+<p><strong>Accept that the system will push back.</strong> This isn&rsquo;t a failure of leadership. It&rsquo;s the natural behavior of any healthy system. Stop being surprised by resistance and start planning for it.</p>
+</li>
+</ol>
+<p>The questions to ask: what reinforcing patterns keep things the way they are? Which are we trying to break, and which new ones are we trying to create? Are our choices big enough and coherent enough to create patterns that sustain themselves? And are we investing enough in mobilization to keep them alive?</p>
+<h2>To go deeper</h2>
+<ul>
+<li>
+<p>John F. Padgett and Walter W. Powell, <em><a href="mailto:https://en.wikipedia.org/wiki/The_Emergence_of_Organizations_and_Markets" rel="nofollow ugc noopener">The Emergence of Organizations and Markets</a></em></p>
+</li>
+<li>
+<p>Forthcoming: John F. Padgett, <em>Organizational Invention in Renaissance Florence</em></p>
+</li>
+<li>
+<p>My 2017 synthesis of Padgett and Powell with Carlota Perez and Geoffrey West: <a href="mailto:https://medium.com/@whitneyzim/network-evolution-and-invention-in-technological-bubbles-cd515569abf" rel="nofollow ugc noopener">&ldquo;Network Evolution and Invention in Technology Bubbles&rdquo;</a></p>
+</li>
+<li>
+<p>My previous posts on Baldwin&rsquo;s modularity theory, Choudary&rsquo;s Reshuffle, Gavin&rsquo;s Thinking Historically, and my conversation with Gulati on courage</p>
+</li>
+</ul>
+<h2>A note on the artwork</h2>
+<div>
+<figure>
+<div><picture><source srcset="https://substackcdn.com/image/fetch/$s_!sKs7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg%20424w,%20https://substackcdn.com/image/fetch/$s_!sKs7!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg%20848w,%20https://substackcdn.com/image/fetch/$s_!sKs7!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg%201272w,%20https://substackcdn.com/image/fetch/$s_!sKs7!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg%201456w" type="image/webp" sizes="100vw" /><img title="" src="https://substackcdn.com/image/fetch/$s_!sKs7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg" sizes="100vw" srcset="https://substackcdn.com/image/fetch/$s_!sKs7!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg 424w, https://substackcdn.com/image/fetch/$s_!sKs7!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg 848w, https://substackcdn.com/image/fetch/$s_!sKs7!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!sKs7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg 1456w" alt="" width="582" height="768" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/347b01f1-b4a1-46a3-8014-4abde8086951_582x768.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:768,&quot;width&quot;:582,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}" /></picture></div>
+<figcaption>Codex Coner, c. 1513&ndash;1515</figcaption>
+</figure>
+</div>
+<p>The Codex Coner is a Renaissance manuscript of measured drawings of ancient Roman architecture and ornament, likely compiled in the circle of Raphael and Bramante. It records temples, vaults, cornices, and mouldings with careful dimensions &mdash; not as art, but as working knowledge. It is a codification designed to make classical architectural techniques transposable by people who had never seen the originals.</p>
+<p>That is exactly what happened. The Codex and manuscripts like it enabled architects across centuries and geographies to transpose Roman principles into fundamentally different contexts &mdash; Palladio into the domestic villas of the Veneto, Inigo Jones into English country houses, Jefferson into the civic architecture of the American republic. None of them copied Rome. Each saw in the codified principles a path for their own ambitions, and walked it. The codification was necessary. But the cascade was driven by individuals who recognized a future for themselves in the transposed technique &mdash; the human engine at work, five centuries before anyone named it.</p>
+<p>Sir John Soane owned a copy. It sits in the collection of the Sir John Soane&rsquo;s Museum in London, alongside the Drawing Office I used as the artwork for my recent post on Carliss Baldwin&rsquo;s modularity frameworks (LinkedIn, Medium, Substack). That connection is not accidental. Modularity is about making systems composable. Autocatalytic transposition is about what happens when composable knowledge crosses a boundary and becomes generative in a new context. The Codex Coner sits at the intersection &mdash; a modular codification of architectural knowledge that enabled centuries of transposition.</p>
+<p>The best knowledge institutions understand what the compilers of the Codex understood: the most lasting value comes not from what you build, but from what you make transposable.</p>
+<h2>A personal note</h2>
+<p>This post is my first as a Distinguished Expert in Strategy at McKinsey, a role I stepped into on April 1st. I don&rsquo;t often write about my own career, but this feels like a good moment &mdash; in part because of what the role represents, and in part because of how directly it connects to the mental model I&rsquo;ve just described.</p>
+<p>Autocatalytic transposition is personal for me. McKinsey can be thought of as a network of networks &mdash; overlapping networks of practitioners, leaders, and thinkers serving clients and working together to develop knowledge. One reason why an institution like McKinsey is impactful for our clients is its ability to develop something in a high-stakes situation in one context and transpose it to create impact in another. That&rsquo;s not as simple or straightforward as it sounds &mdash; and I&rsquo;ve learned how much it matters firsthand.</p>
+<p>A few experiences stand out:</p>
+<ul>
+<li>
+<p>Building and running a transformation office for a global engagement spanning six continents and nearly a thousand clients, and acting as the COO of our client service organization. The most important problem wasn&rsquo;t always strategy &mdash; it was often the internal communications necessary to unlock the best of our teams. We won an internal award for innovations I developed for onboarding new team members and managing knowledge and information sharing within our client service team.</p>
+</li>
+<li>
+<p>Running a client-led strategic review and global operating model transformation, for which I received a Ron Daniel Award for exceptional impact in client service.</p>
+</li>
+<li>
+<p>Being part of a team that won a Fred Gluck Award for taking what we had been learning serving clients and institutionalizing it across the firm &mdash; including our Building Blocks of Strategy and Strategy Champions research &mdash; making knowledge generative beyond its original context.</p>
+</li>
+</ul>
+<p>Each of these contrinbute to the same underlying challenge: taking ways of working developed in one context and making them productive in another. Not copying, transposing. And not just transposing, but making the transposition stick, so that it becomes self-sustaining.</p>
+<p>Padgett and Powell draw a distinction between innovation and invention that has stayed with me since I first read it. Innovations improve on existing ways of doing things. Inventions change the ways things are done &mdash; they cascade out to reconfigure the interacting system of which they are a part. Both are necessary and valuable. But invention is what I&rsquo;m driven by. Finding things that tip systems into new, more productive states.</p>
+<p>As a Distinguished Expert in Strategy &mdash; one of McKinsey&rsquo;s first &mdash; my mission is clear: to make everyone at McKinsey even better at strategy than they already are, by helping them combine fluently and frictionlessly their own capabilities and context with the very best approaches to strategy &mdash; and to achieve the same beyond McKinsey, because I believe strategy is one of our most powerful tools for helping organizations prosper. It is why autocatalytic transposition is a mental model for the work itself.</p>
+<h2>Appendix: The mental model in detail (for AI-assisted use)</h2>
+<h3>Definition</h3>
+<p>Autocatalytic transposition is the arc in which a technique, capability, or way of creating value is transposed from one network into another, transforms through contact with the new context, achieves catalysis &mdash; becomes self-reproducing &mdash; and tips the receiving network into a fundamentally new state.</p>
+<p>The phrase names something extensively described but not given a single compound term in Padgett and Powell&rsquo;s work, where they write: &ldquo;At the heart of the transposition process is the disruption or reconfiguration of a domain&rsquo;s fundamental autocatalytic process.&rdquo;</p>
+<p>The model has five interlocking components:</p>
+<ol>
+<li>
+<p><em>A source network</em> &mdash; the context in which the technique was originally developed</p>
+</li>
+<li>
+<p><em>A receiving network</em> &mdash; the context into which the technique is transposed, which has its own autocatalytic logic that will resist disruption</p>
+</li>
+<li>
+<p><em>The transposition itself</em> &mdash; the movement of technique across the boundary, carried by people, ideas, or crises</p>
+</li>
+<li>
+<p><em>Transformation</em> &mdash; the technique changes through contact with the new context, producing novel combinations</p>
+</li>
+<li>
+<p><em>Catalysis</em> &mdash; the transformed technique becomes self-reproducing in its new context, tipping the receiving network into a new state</p>
+</li>
+</ol>
+<h3>The Biochemical Foundation: Autocatalysis</h3>
+<p>Autocatalysis was first developed and formalized by Manfred Eigen (Nobel Prize in Chemistry, 1967) and Peter Schuster to explain the prebiotic chemical origin of life.</p>
+<p>In its abstract form, autocatalysis is defined as: <strong>a set of nodes and transformations in which all nodes are reconstructed through transformations among nodes in the set.</strong></p>
+<p>In the original biological context, nodes are chemicals and transformations are chemical reactions. Chemicals interact with other chemicals, triggering reactions that produce new chemicals. If a chemical reaction network contains an autocatalytic set within it, then it reproduces itself through time, given appropriate energy inputs. Positive feedback loops &mdash; cycles of self-reinforcing transformations &mdash; lie at the core of autocatalytic sets.</p>
+<p>The critical dynamic feature is <strong>self-repair</strong>: destroy a segment of the network, and an autocatalytic network can often (not always) reconstruct its deleted segment. This is what gives the set continuity through perilous times. Autocatalysis is, in this precise sense, the network definition of life itself.</p>
+<h3>Three Types of Autocatalysis in Social Systems</h3>
+<p>Padgett and Powell distinguish three types of autocatalysis when applying the concept to social systems:</p>
+<ol>
+<li>
+<p><strong>Production autocatalysis</strong> is the production and transformation of products through skills within organizations (&rdquo;cells&rdquo;) and relational exchange ties among them. Products flow through skills, and skills reproduce within organizations. Exchange ties emerge to reinforce the flow of transformed products into self-reproducing life. In an economic context: skills are like chemical reactions (rules that transform products into other products); products are like chemicals (transformed by skills); firms are like organisms (containers of skills that transform products); trade is like food (passes transformed products through exchange networks, renewing skills and firms in the process). Economic &ldquo;life&rdquo; exists when an autocatalytic network of interlinked skills and products can emerge and renew itself in the face of continual turnover and death in its component skills and products.</p>
+</li>
+<li>
+<p><strong>Cellular or biographical autocatalysis</strong> is the production and flow of skills among organizations or people through teaching between them. Organizations and people themselves learn new skills, die, and are replaced. Lineages of teaching emerge to reinforce the flow of skills into inheritance across generations. Cellular autocatalysis produces biographies &mdash; the trajectories through which actors are constituted over time. It typically operates on a slower time frame than production autocatalysis.</p>
+</li>
+<li>
+<p><strong>Linguistic autocatalysis</strong> means that words and symbols reproduce through conversational use in production. This type does not play a central role in Padgett and Powell&rsquo;s empirical cases but is acknowledged as an important dimension.</p>
+</li>
+</ol>
+<p>The first type (production) is nested inside the second (biographical). More advanced autocatalytic systems are regulated through biographies whose intertwining directs the flows of skills and relational protocols.</p>
+<h3>The Complexity Barrier and Why Organizations Exist</h3>
+<p>One of Eigen and Schuster&rsquo;s main findings, reconfirmed in Padgett and Powell&rsquo;s agent-based models, is that autocatalytic life beyond four chemicals/products cannot be sustained in a random topology. They called this the &ldquo;complexity barrier.&rdquo; This is why complex life is always spatially embodied &mdash; and, in an economic context, why production organizations such as firms exist. Organizations provide the spatial structure needed for complex autocatalytic life to sustain itself.</p>
+<h3>Domains, Overlapping Domains, and Multifunctionality</h3>
+<p>A key finding from Padgett and Powell&rsquo;s computational models is that multiple, overlapping production networks emerge spontaneously from autocatalytic processes. &ldquo;Domains&rdquo; are sets of production rules and products that are autocatalytic. &ldquo;Overlapping domains&rdquo; means that some products, production rules, and/or communication protocols in these sets are shared across domains.</p>
+<p>Multiple overlapping domains emerge because shared rules and products create synergistic feedbacks &mdash; both positive (for stimulation) and negative (for regulation) &mdash; between individual autocatalytic networks. Multiple networks that self-organize together are reproductively more resilient than any one network alone.</p>
+<p><strong>Multifunctionality</strong> &mdash; the participation of people, skills, and relational protocols in more than one domain &mdash; lies at the center of how domains intersect. It defines the topology of how organizational innovations diffuse or do not diffuse into systemic invention. Innovation spillover across domains, if it occurs, occurs through parts in common.</p>
+<h3>Why Existing Systems Resist Change</h3>
+<p>Embedding of exchange in multiple reinforcing networks means that innovations and inventions in any one domain are resisted. Resilient self-repair at the system level implies reproductive stickiness at the micro level. The closer to the reproductive cyclic core of any autocatalytic system, the denser the networks of homeostatic feedback.</p>
+<p>This is why creative destruction is often an important prequel to innovation and invention. It is also why invention, when it does break through, can appear as rapid &ldquo;punctuated equilibria&rdquo; with unintended spillover consequences. The problem of novelty would not be so difficult were not autocatalytic life in place to resist it.</p>
+<h3>Innovation vs. Invention</h3>
+<p>Padgett and Powell draw a precise distinction between innovation and invention:</p>
+<ul>
+<li>
+<p><strong>Organizational innovation</strong> is a new partition of production rules or communication protocols into organizations or people &mdash; one that is reproducible through feedback with other interacting organizations, but survives without disturbing other partitions.</p>
+</li>
+<li>
+<p><strong>Systemic invention</strong> is organizational novelty that tips into disrupting other partitions, which collectively find their own modified autocatalysis. The extent of spillover is a matter of degree.</p>
+</li>
+</ul>
+<p>In plain language: innovations improve existing ways of doing things; inventions change the ways things are done, cascading through the broader system. The key to classifying something as an invention is the degree to which it reverberates out to alter the interacting system of which it is a part. Autocatalytic transposition, when it succeeds, is the mechanism that transmutes innovation into invention. As Padgett and Powell write: &ldquo;Invention in our usage is the system tipping that might ensue as a cascade from the original innovation out through the multiple networks that originally induced it.&rdquo;</p>
+<h3>Transposition and Refunctionality</h3>
+<p>Transposition and refunctionality is the first and most prominent of eight &ldquo;network-folding&rdquo; mechanisms of organizational genesis identified by Padgett and Powell. It is the movement of a relational practice from one domain to another and its reuse for a different function or purpose in the new domain. It parallels the concept of &ldquo;exaptation&rdquo; in evolutionary biology (Gould and Vrba, 1982).</p>
+<p>Relations and relational protocols originally developed in one autocatalytic network are inserted into another network and reproduce there, potentially tipping those networks in the process.</p>
+<p><strong>Historical example &mdash; Renaissance Florence:</strong> The master-apprentice employment relationship from domestic guilds was transposed, through the city council in response to the Ciompi revolt, into the world of international merchant-finance. Economic function altered: a senior partner invested in a set of legally independent branch partners who were traders and bankers. This transformed the master/senior partner from an entrepreneur into a financier. The resulting partnership systems of Renaissance Florence resemble modern venture capital in outline.</p>
+<p><strong>Historical example &mdash; Biotechnology:</strong> The academic science laboratory was transposed, through venture capitalists in response to new gene manipulation technologies, from universities into the market. Scientists carried scientific practices into the world of commerce, creating a science-based firm that was the product of overlapping networks of science, finance, and commerce.</p>
+<h3>The Two-Stage Process: Genesis and Catalysis</h3>
+<p>Padgett and Powell describe organizational emergence as a two-stage process:</p>
+<p><strong>Organizational genesis</strong> is the transposition of skills and relational protocols that triggers innovation. It is often triggered by unanticipated transpositions of people from one domain to another, who carry with them production skills and relational protocols that mix with and transform skills and protocols already there.</p>
+<p><strong>Organizational catalysis</strong> is the slower process of absorbing innovation into transformed collateral networks through restructured biographies. If this happens (which is rare, because preexisting autocatalytic systems resist it), it transmutes organizational innovation into systemic invention.</p>
+<p>In the Florentine case, catalysis was produced by the emergence of a new open elite &mdash; new-men bankers participating in partnership systems gradually intermarried with politically victorious segments of old patricians. This class synthesis through social mobility made a new type of &ldquo;Renaissance man,&rdquo; the merchant-republican. Restructured channels of social co-optation transformed Florentine social mobility and biographies, elevating partnership systems from an organizational innovation in business to a constitutive network in Florence&rsquo;s social and political elite &mdash; which in turn stimulated and bankrolled the artistic and political inventions we call the Renaissance.</p>
+<p>In the biotech case, catalysis occurred through amphibious scientist-entrepreneurs who carried academic practices into commerce, creating new career paths and organizational forms that linked university science, venture capital, and industry.</p>
+<h3>The Eight Network-Folding Mechanisms</h3>
+<p>Padgett and Powell identify eight mechanisms of organizational genesis (network folding and network tearing). The full list:</p>
+<ol>
+<li>
+<p><strong>Transposition and refunctionality</strong> &mdash; movement of a relational practice from one domain to another and its repurposing (described above)</p>
+</li>
+<li>
+<p><strong>Anchoring diversity</strong> &mdash; a powerful actor or institution brings diverse networks together, creating conditions for recombination</p>
+</li>
+<li>
+<p><strong>Incorporation and detachment</strong> &mdash; actors or practices are incorporated into a new network or detached from an existing one</p>
+</li>
+<li>
+<p><strong>Migration and homology</strong> &mdash; movement of people across geographical or social space, carrying practices that are structurally similar (homologous) to practices in the receiving domain</p>
+</li>
+<li>
+<p><strong>Conflict displacement and dual inclusion</strong> &mdash; conflicts in one domain are displaced into another, creating new network linkages</p>
+</li>
+<li>
+<p><strong>Purge and mass mobilization</strong> &mdash; radical disruption (purges, revolutions) that clears existing networks and creates conditions for new ones</p>
+</li>
+<li>
+<p><strong>Privatization and business groups</strong> &mdash; transformation of public or communal resources into private control, creating new network structures</p>
+</li>
+<li>
+<p><strong>Robust action and multivocality</strong> &mdash; actors who maintain ambiguous positions across multiple networks, allowing them to be interpreted differently by different audiences, thereby bridging otherwise disconnected domains</p>
+</li>
+</ol>
+<p>The authors regard this list as a start toward developing social-network analogues to Mendel&rsquo;s biological rules for recombining genes.</p>
+<h3>Autocatalytic Networks as Transformational Networks</h3>
+<p>A critical distinction in Padgett and Powell: autocatalytic networks are networks of <strong>transformations</strong>, not networks of mere <strong>transmission</strong>. Information and products are not inert objects passing through passive pipes. Information is transformed through communication protocols. Products are transformed through production rules. Social networks don&rsquo;t just pass things &mdash; they do transformational work. Diffusion should be reconceptualized from mimicry to chain reactions. The autocatalytic self-organization of these chain-reaction transformations is emergence.</p>
+<h3>The Human Engine: An Interpretive Contribution</h3>
+<p>Padgett and Powell write that &ldquo;restructured biographies are the medium through which network spillover is transmitted&rdquo; and describe how people carry resources across domain boundaries. As a practitioner, I interpret this motivationally: transposition becomes self-reproducing when people can see a visible path. When someone transposes a technique into a new context and succeeds visibly, others recognize that path as available to them, form an identity around it, and choose to walk it &mdash; carrying not just a technique but a way of being from one network into another. The incentive structure, the visible career pathway, the identity formation &mdash; this is what makes the process autocatalytic. Without it, you get one-off transfers. With it, you get cascades.</p>
+<p>This has implications for the age of AI. Current AI systems can accelerate codification (one half of the cycle) and perform mechanical transposition (applying techniques across domains). But they do not see role models, carry identities across boundaries, or choose paths based on seeing themselves in someone else&rsquo;s success. The human is not a safety guardrail &mdash; the human <em>is</em> the autocatalytic mechanism. Until this changes, protecting the conditions that make the human engine work &mdash; cross-functional rotation, slack for exploration, career pathways that reward boundary-crossing, visible role models &mdash; is essential to any organization that depends on transposition for its vitality.</p>
+<h3>Success Conditions</h3>
+<p>Autocatalytic transposition is more likely to succeed when:</p>
+<ul>
+<li>
+<p>The source and receiving networks are genuinely diverse (not just adjacent)</p>
+</li>
+<li>
+<p>The transposition is carried by people who form identities spanning both networks</p>
+</li>
+<li>
+<p>Visible role models demonstrate the path</p>
+</li>
+<li>
+<p>Sufficient organizational slack exists for experimentation</p>
+</li>
+<li>
+<p>Codification infrastructure makes the technique transmissible without stripping out its adaptive potential</p>
+</li>
+<li>
+<p>Commitment is sustained through the resistance period</p>
+</li>
+<li>
+<p>Multiple reinforcing changes are made simultaneously, creating enough interconnected new cycles to reach the threshold of self-reinforcement</p>
+</li>
+</ul>
+<h3>Failure Conditions</h3>
+<p>Most transpositions fail. Common failure modes include:</p>
+<ul>
+<li>
+<p>The receiving network&rsquo;s existing autocatalysis rejects or absorbs the transposition without changing</p>
+</li>
+<li>
+<p>The transposition is replicated too faithfully without adapting to local context (over-replication)</p>
+</li>
+<li>
+<p>The transposition is adapted so extensively that it loses its self-reproducing quality (over-adaptation)</p>
+</li>
+<li>
+<p>Insufficient commitment is sustained through the resistance period</p>
+</li>
+<li>
+<p>The human engine &mdash; role models, identity formation, career incentives &mdash; is absent or weakened</p>
+</li>
+<li>
+<p>The transposition is too isolated or too small-scale to cross the complexity barrier</p>
+</li>
+</ul>
+<h3>The Resistance Dynamic</h3>
+<p>Receiving networks are themselves autocatalytic &mdash; they reproduce themselves and push back against disruption. Any genuine attempt at autocatalytic transposition will therefore face a period where signals look like failure. The strategic discipline is to distinguish between the predictable friction of a network defending its existing autocatalysis and a genuine signal that the transposition will not achieve catalysis. This distinction requires human judgment, conviction, and courage.</p>
+<h3>Decision Rules for Strategists</h3>
+<p>When evaluating whether a strategic move has the potential for autocatalytic transposition, ask:</p>
+<ol>
+<li>
+<p>Am I transposing across a genuine network boundary, or just extending within the same network?</p>
+</li>
+<li>
+<p>Is the receiving network&rsquo;s autocatalytic resistance understood and accounted for?</p>
+</li>
+<li>
+<p>Are there people who will carry the technique with identity and ambition, not just as a task?</p>
+</li>
+<li>
+<p>Is there sufficient slack and diversity of network resources for the technique to transform rather than merely replicate?</p>
+</li>
+<li>
+<p>Am I prepared to commit through a resistance period where success will look like failure?</p>
+</li>
+</ol>
+<h3>Key Principles from the Theory</h3>
+<p>The following principles, derived from Padgett and Powell&rsquo;s theoretical and empirical work, underpin the model:</p>
+<ol>
+<li>
+<p><strong>Organizations and markets are self-reproducing systems.</strong> They persist not because of the permanence of any individual component but because of self-reinforcing cycles that recreate the whole through transformations among the parts.</p>
+</li>
+<li>
+<p><strong>Self-repair makes change difficult.</strong> The more embedded a practice is in the reproductive core of the system, the more resistant it is to change. The closer to the core, the denser the homeostatic feedback.</p>
+</li>
+<li>
+<p><strong>Genuine novelty comes from transposition across domains, not optimization within them.</strong> Single autocatalytic networks generate life, but they do not generate novel forms of life. Transpositions and feedbacks among multiple networks are the source of organizational novelty.</p>
+</li>
+<li>
+<p><strong>Multifunctionality is the channel for change.</strong> People, skills, and practices that participate in multiple domains are the conduits through which transposition travels. The pattern of overlap between domains determines what kinds of innovation are possible.</p>
+</li>
+<li>
+<p><strong>There is a two-stage process.</strong> Genesis (the initial transposition) produces innovation. Catalysis (percolation through collateral networks via restructured biographies) produces invention. Most transpositions achieve genesis but fail at catalysis.</p>
+</li>
+<li>
+<p><strong>Creative destruction is often a prerequisite.</strong> Because existing autocatalytic systems resist novelty through self-repair, disruption of existing networks &mdash; whether through crisis, conflict, regulatory change, or deliberate strategic action &mdash; is frequently necessary to create conditions where new cycles can form.</p>
+</li>
+<li>
+<p><strong>Scale matters.</strong> The complexity barrier means that new autocatalytic life needs sufficient density and spatial embodiment to sustain itself. Transpositions that are too small or too isolated will not reach the threshold required for self-reinforcing reproduction.</p>
+</li>
+<li>
+<p><strong>Actors are vortexes, not buildings.</strong> Social structures should be viewed more as vortexes in the flow of social life than as architectural buildings. Firms are produced and transformed by the goods and people passing through them. This processual view &mdash; seeing organizations as patterns that persist through continuous renewal rather than as fixed structures &mdash; is fundamental to applying the concept.</p>
+</li>
+</ol>
+<h3>Relationship to Adjacent Concepts</h3>
+<p>Autocatalytic transposition differs from:</p>
+<ul>
+<li>
+<p><strong>Knowledge spillovers</strong> &mdash; which treat knowledge as a commodity that diffuses intact, rather than as something that transforms through contact with the receiving context</p>
+</li>
+<li>
+<p><strong>Recombinant innovation</strong> &mdash; which focuses on technology combining without requiring self-reproduction in the receiving network</p>
+</li>
+<li>
+<p><strong>Exaptation</strong> (Gould and Vrba) &mdash; which focuses on properties of artifacts enabling functional shift; Padgett and Powell note their concept of &ldquo;refunctionality&rdquo; is essentially the same, but grounded in network architecture rather than artifact properties</p>
+</li>
+<li>
+<p><strong>Structural holes and folds</strong> (Burt, Vedres and Stark) &mdash; which explain where in a network innovation is likely, but not the self-reproducing mechanism that turns innovation into invention</p>
+</li>
+</ul>
+</div>
+</div>
+
+<!-- ARTICLE HTML END -->
+
+            </div>
+        </details>
+    </div>
+    
+    <div class="back-link">
+        <a href="https://www.linkedin.com/newsletters/7258844747895656448/">← Read on LinkedIn</a><br>
+        <a href="https://medium.com/@whitneyzim">← Read on Medium</a><br>
+        <a href="https://substack.com/@whitneydzimmerman">← Read on Substack</a>
+    </div>
+    
+    <script>
+        function getArticleTextWithLinks() {
+            const content = document.getElementById('article-content').cloneNode(true);
+            
+            // Convert links to "text (url)" format
+            const links = content.querySelectorAll('a');
+            links.forEach(link => {
+                const url = link.href;
+                const text = link.textContent;
+                // Only add URL if it's different from the text (not already a bare URL)
+                if (url && !text.includes(url)) {
+                    link.replaceWith(`${text} (${url})`);
+                }
+            });
+            
+            // Get text content, preserving paragraph breaks
+            const paragraphs = content.querySelectorAll('p, h1, h2, h3, h4, li');
+            let text = '';
+            
+            if (paragraphs.length > 0) {
+                paragraphs.forEach(p => {
+                    text += p.textContent.trim() + '\n\n';
+                });
+            } else {
+                text = content.textContent;
+            }
+            
+            return text.trim();
+        }
+        
+        function copyAndOpen(service) {
+            const articleText = getArticleTextWithLinks();
+            const prompt = `Please provide a comprehensive summary of the following article. Preserve the key insights and main arguments. If there are URLs in the text, you may access them for additional context if needed.\n\n---\n\n${articleText}`;
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(prompt).then(() => {
+                // Show success message
+                const status = document.getElementById('status');
+                status.className = 'status success';
+                status.textContent = '✓ Copied to clipboard! Paste in the new tab.';
+                
+                // Open the appropriate service
+                const urls = {
+                    claude: 'https://claude.ai/new',
+                    chatgpt: 'https://chat.openai.com/',
+                    gemini: 'https://gemini.google.com/app'
+                };
+                
+                window.open(urls[service], '_blank');
+            }).catch(err => {
+                alert('Could not copy to clipboard. Please try again.');
+                console.error(err);
+            });
+        }
+    </script>
+</body>
+</html>
