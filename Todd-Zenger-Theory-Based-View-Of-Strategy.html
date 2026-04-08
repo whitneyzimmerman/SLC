@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL;LC — The Strategy Leader as Scientist: A Conversation with Professor Todd Zenger about the Theory-Based View of Strategy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .instructions h2 {
+            font-size: 1rem;
+            margin: 0 0 0.75rem 0;
+        }
+        
+        .instructions ol {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+        
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 2rem;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        
+        button:hover {
+            opacity: 0.85;
+        }
+        
+        .claude {
+            background: #d97706;
+            color: white;
+        }
+        
+        .chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+        
+        .gemini {
+            background: #4285f4;
+            color: white;
+        }
+        
+        .status {
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            display: none;
+        }
+        
+        .status.success {
+            display: block;
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .article-preview {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .article-preview summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .article-preview summary:hover {
+            color: #333;
+        }
+        
+        #article-content {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        #article-content a {
+            color: #2563eb;
+        }
+        
+        .back-link {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+        
+        .back-link a {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Strategy Leader's Craft</h1>
+    <p class="subtitle">TL;LC (Too Long; Let's Chat) for: <strong>The Strategy Leader as Scientist: A Conversation with Professor Todd Zenger about the Theory-Based View of Strategy</strong></p>
+    
+    <div class="instructions">
+        <h2>How this works</h2>
+        <ol>
+            <li>Click your preferred AI below</li>
+            <li>The article text is copied to your clipboard</li>
+            <li>A new tab opens — just paste (Ctrl+V / Cmd+V)</li>
+        </ol>
+    </div>
+    
+    <div class="buttons">
+        <button class="claude" onclick="copyAndOpen('claude')">Use Claude</button>
+        <button class="gemini" onclick="copyAndOpen('gemini')">Use Gemini</button>
+        <button class="chatgpt" onclick="copyAndOpen('chatgpt')">Use ChatGPT</button>
+    </div>
+    
+    <div id="status" class="status"></div>
+    
+    <div class="article-preview">
+        <details>
+            <summary>View article text</summary>
+            <div id="article-content">
+                
+<!-- ARTICLE START -->
+
+"The reason why Nvidia can move so fast is because we always have a unifying theory for the company, and that's my job — I need to come up with a unifying theory for what's important and why things connect together and how they connect together and then create an organization, an organism that's really, really good at delivering on that unifying theory."
+That was Jensen Huang, in a recent interview with Stratechery's Ben Thompson, describing what he thinks the CEO's job actually is: composing a theory — and sustaining the organization that understands and can deliver on it.
+
+Huang's theory for Nvidia is that accelerated computing will replace general-purpose computing as the foundation of all computing, and that the company that owns the full stack — from chip to software platform to data center — will capture disproportionate value.
+
+But Huang has also been clear that a theory gives you direction, not certainty. "Our job as CEOs is to look around corners and anticipate where opportunities will be someday," he said on Acquired in 2023. "Even if I'm not exactly sure what and when, how do I position the company to be near it — to be just standing near the tree, and we can do a diving catch when the apple falls." What makes Huang distinctive is not just the theory but how relentlessly he teaches it. Each year, his GTC keynote is a public classroom: he walks through how the theory applies to new domains, why the pieces connect, and what it implies for how computing will be built next. Some of the most strategic CEOs I've worked with are half leaders and half teachers, and Huang is no exception. He has said the keynote is partly for his own employees, to remind them of what matters and why things fit together. I suspect it also serves another purpose: making a genuinely unique strategy legible to a market that might otherwise struggle to evaluate a company doing so many seemingly different things at once.
+
+Huang is not the only CEO to focus on maintaining a causal theory of value creation. As I explored in my post on Daniel Ek and the four foundations of strategy and value (LinkedIn, Medium, Substack), Ek composed a corporate theory for Spotify built on a distinctive belief about where value lives: "We solve problems at the intersection of consumers and creators. If something is good for the consumer and also good for the creator, that's where you'll find us every time." Spotify’s strategic evolution followed from this: the shift from downloads to streaming, the expansion into podcasts and audiobooks, the investment in algorithmic personalization, and the DIBB framework (Data, Insight, Belief, Bet) that embedded theory-driven reasoning into how the entire organization operates. Starbucks CEO Brian Niccol offers a different but equally instructive example. His "Back to Starbucks" is a recomposition of the company's corporate theory around a simple premise: that Starbucks creates value at the intersection of coffee quality and human connection — in a community space worth lingering in. Niccol has noted he believes complexity is dangerous, and everything he has done at Starbucks flows from restating the theory simply enough that every leader can internalize it and every decision can be measured against it. "The one thing that I'm most proud of to date," he has said, "is all of our stores know the Back to Starbucks strategy. It's hard to put a price tag on that clarity."
+
+This approach to strategy — composing a causal theory first, then deriving decisions from it — reflects what's called the Theory-Based View. It complements and challenges two approaches that have dominated strategy for decades: Michael Porter's positioning school, which holds that strategy is about finding and defending an attractive position within an industry structure, and the resource-based view, which holds that strategy is about leveraging unique resources that competitors can't replicate. Both have produced important insights, and neither is wrong. When Huang talks about positioning the company near future opportunities, he's using Porter's vocabulary — but his positioning choices are generated by a theory, not by industry analysis. The theory tells him where to stand. What the Theory-Based View adds is an explanation of the generative act that produces the positions and resource configurations the other schools describe. It also explains something the other frameworks struggle with: why a company like Starbucks can hold an enviable competitive position and still lose its way when it loses sight of the theory that justified that position in the first place.
+
+The scholar who, along with Teppo Felin, has done more than anyone to formalize this is Todd Zenger. Zenger is the N. Eldon Tanner Presidential Professor of Strategy and Strategic Leadership at the University of Utah's David Eccles School of Business, Editor-in-Chief of Strategy Science, co-director of the ION Management Science Lab at Utah, a Fellow of both the Strategic Management Society and the Academy of Management, and author of Beyond Competitive Advantage. His ongoing work with long-time collaborator Teppo Felin continues to extend the Theory-Based View. They are currently working on a book, provisionally titled, Theory First. One of his central claims, which I agree with, is that the job of the strategist is not primarily to analyze but to theorize — to compose a structured, causal belief about how to create value that others can't see. The strategist's craft, in his framing, is applying the scientific method to value creation.
+
+His work names something I've been observing — that the hardest and most important thing is unlocking better strategic thinking and debate. I was glad he agreed to explore his research and its connection to this observation with me.
+
+The Intellectual Arc of Todd Zenger
+
+Zenger's journey into strategy began at Stanford, where as an undergraduate studying economics he had an unusual formative experience. Tom Peters had just co-authored In Search of Excellence — arguably the first blockbuster business book — and approached Zenger's father, who ran a training development company, about building a training product around the book's principles. Zenger stopped out for a quarter to work on the project and spent time flying around the country with Peters, developing scripts for what became a widely used corporate training program. It was an early and visceral exposure to the gap between academic ideas and managerial practice — a gap he would spend his career working to close.
+
+After his PhD at UCLA, where he studied under William Ouchi, Zenger's early research focused on a puzzle hiding in plain sight in Silicon Valley: why do large firms systematically lose their best people? His empirical work showed that large corporations compress pay relative to performance, rewarding only extreme performers — which drives talented employees to leave for smaller firms offering higher-powered incentives. This led to influential work on why corporations were disaggregating into networks of smaller, more autonomous units to capture the incentive advantages of small scale.
+
+The next phase took him deeper into the theory of the firm. Working with Jackson Nickerson at Washington University in St. Louis, Zenger developed what they called the "problem-solving perspective" — a reframing of why firms exist. The dominant view, rooted in Oliver Williamson's transaction cost economics, held that firms exist primarily to minimize the costs of transacting. Zenger and Nickerson proposed something more generative: firms exist because different organizational forms are differentially effective at producing knowledge. The "problem" became the unit of analysis — its complexity determines the best organizational form for solving it. His 2004 paper has accumulated over 2,000 citations and remains one of the most influential contributions to the theory of the firm. But it raised a deeper question: where do the problems come from? What determines which problems a firm selects — and why some firms see problems that others miss entirely?
+
+The crucial turn came through collaboration with Teppo Felin, then at Oxford. Together, they recognized that the dominant narrative in management about cognitive biases — overconfidence, anchoring, and hundreds of catalogued cognitive failures — tells only half the story. As Zenger put it:
+
+"We're blind, we're biased, we're overconfident — yes. But we also have this superpower, which is we're constantly theorizing. We're putting together causal structures in our head."
+He pointed to research in child psychology showing that infants compose sentences they've never heard — experimenting with theoretical ideas about language before they can even articulate what they're doing. We are theorizing engines. This capacity — the ability to frame problems, compose causal beliefs, and imagine futures that don't yet exist — is what Zenger and Felin set out to formalize. They call it the Theory-Based View.
+
+What Strategy Is: Theory First
+
+In Beyond Competitive Advantage, Zenger notes that Dell, Walmart, and Southwest Airlines all had brilliant strategies and dominant competitive positions. Yet over the decade and a half before the book's publication, each had struggled to discover new sources of value. Their stock prices were flat. The reason: investors had already priced in the existing advantage. Competitive advantage tells you about who you are. It doesn't necessarily tell you how to evolve.
+
+This is the problem Zenger set out to solve.
+
+For Zenger, the central act of strategy is composing a theory: a structured, causal belief about how value can be created. Not a plan. Not a set of goals. Not a portfolio of initiatives. A theory — a predictive framework that generates hypotheses about how strategic actions will create value in envisioned future states. He calls this a corporate theory and defines it as:
+
+"a logic that managers repeatedly use to identify from among a vast array of possible asset, activity, and resource combinations those complementary bundles that are likely to be value creating for the firm."
+The emphasis shifts from what a strategy contains to how it gets composed. Most strategy frameworks focus on analysis — understanding your position, your resources, your competitive environment. Zenger focuses on the generative question: where does a good strategy come from in the first place? His answer: the same place scientific breakthroughs come from — someone composes a causal theory about how the world works, identifies the problems that must be solved to realize it, and designs experiments to test it.
+
+The idea that what you can observe depends on the theory you hold is not new. It's one of the oldest ideas in the history of knowledge. Aristotle argued that you don't understand something until you grasp its cause. Kant went further: the mind doesn't passively receive data but actively organizes all experience through prior frameworks. Peirce identified abduction — the creative leap that generates new hypotheses — as the only logical operation that actually introduces new ideas, and his cycle of hypothesize, test, revise is the direct ancestor of Zenger's. Kuhn showed that paradigms determine which problems scientists can even recognize, which is why a paradigm shift makes the same data reveal something completely new. This pattern runs through the history of science. Tycho Brahe had the best astronomical data in the world but couldn't extract the laws of planetary motion from it, because his theoretical commitments prevented him from seeing what was there. Kepler, working from the same observations with a different framework, abandoned two thousand years of circular-orbit orthodoxy and found that planets move in ellipses. Same data. Different theory. Different world. Einstein's remark to Heisenberg became the line Zenger built his framework around: "It is the theory which decides what can be observed."
+
+Zenger shows how to take this seriously for strategy. Firms holding different theories don't just interpret the same market differently. They perceive different markets. But a strategy is not the same thing as a corporate theory. A strategy is a map to a specific destination — once you arrive, the map is spent. A corporate theory is a compass that keeps pointing toward new value, producing an ongoing stream of strategic actions. This is what Dell, Walmart, and Southwest were missing: their strategies were working, but they had stopped generating new value. Disney, by contrast, had a corporate theory — Walt Disney's famous synergy diagram, with animated characters at the center radiating outward to theme parks, publishing, music, merchandise, and television — that generated strategic actions for over eighty years. When Disney's successors departed from this theory in the 1970s, value creation stalled. When Eisner and Katzenberg returned to animation-centered strategy in the 1980s, it revived. The theory outlasted any single strategy.
+
+A powerful corporate theory requires three things:
+
+Foresight: beliefs about how technologies, industries, and customer preferences will evolve — beliefs that differ from received wisdom.
+Insight: understanding of the firm's sustainably unique assets, capabilities, and resources.
+Cross-sight: recognizing patterns of complementarity between assets and activities, both within and outside the firm, that others miss. Cross-sight is the most distinctive and the hardest to develop. It's the capacity to see that two things that look unrelated — an animation studio and a theme park, a search engine and an autonomous vehicle program — become extraordinarily valuable when combined.
+In a study of all 7,630 publicly traded U.S. companies over more than two decades, Zenger and his colleagues found that companies with unique strategies attract less analyst coverage and are systematically undervalued — yet generate higher future economic rents. This “uniqueness paradox” means the strategies most likely to create value are the ones least likely to be understood and rewarded by capital markets. It also explains why the window for building valuable positions stays open: the strategies hardest to evaluate are the ones competitors are slowest to imitate and investors slowest to price in. This is the problem I suspect Huang's annual GTC keynotes are partly designed to solve — overinvesting in the explanation of a genuinely unique and uniquely ambitious strategy to ensure that the market can properly evaluate it, which I mentioned in my opening.
+
+The Value Lab: An Architecture for Theory-Building
+
+Theory-building sounds abstract. In practice, Zenger and his colleagues — Teppo Felin and Alfonso Gambardella — have developed a concrete architecture for it, which they call the Value Lab. It has three steps.
+
+The first is articulating contrarian beliefs. What do you believe that almost no one else does? This is harder than it sounds. Most of our beliefs are shared — that's what makes business functional. But the seeds of new value live in uncommon beliefs: about where technology is heading, about what customers will want, about how an industry's structure might change. Steve Jobs believed personal computers would become a mass-market product at a time when the CEO of Digital Equipment Corporation told Time there was no reason for any individual to have one.
+
+The second is transforming those beliefs into a core problem and sub-problems. The belief itself is just rhetoric. The value comes from identifying the obstacles that prevent it from becoming reality — and decomposing those obstacles into solvable problems. Zenger walked me through this using Airbnb:
+
+"The belief was that a future would emerge where people rent out their private space in a hoteling kind of way — if we figure out the trust problem, the anonymous payment transfer problem, the matching problem, and how to make people have a visceral sense of the space they're going to walk into. If we solve these four problems, my theory is that magic happens."
+The third is defining actions: experiments to run, resources to acquire, solutions to search for. Running experiments without a guiding theory is like telling a scientist to go to a lab and just try things. You might feel busy, but you're unlikely to produce a breakthrough. Theory seeds better experiments because it narrows the search space — telling you which assumptions to test first and which are weakest. Without a theory, every experiment is equally plausible, and the most valuable hypotheses are no more likely to be tested than the least.
+
+In randomized controlled trials involving hundreds of startups, those taught to compose theories of value before experimenting significantly outperformed those taught only standard lean startup tools. They generated more revenue, pivoted more productively, and — importantly — exited faster when their theory was flawed. It's some of the strongest evidence that how you approach strategy formulation measurably affects outcomes.
+
+Our Conversation: Three Themes
+
+I spoke with Zenger about the connections between his research and the challenges strategy leaders face. I want to share three themes from the conversation.
+
+1. Theory determines what you can see
+
+Zenger told me about his own visit to Xerox PARC a few months after Steve Jobs did, where many of the technologies that would define personal computing — the graphical user interface, the mouse, the bitmapped screen — were first developed.
+
+"I saw the machine and had it demoed for me, and I thought it was the coolest thing. But for me, it was just some cool technology."
+Steve Jobs, walking into the same room, saw something entirely different:
+
+"He's seeing solutions. He's seeing different data than I am seeing because he's seeing solutions to a problem he had already formulated."
+Zenger and his colleagues, drawing on biology, call this a "search image." Jobs's problem formulation — how do you make computers easy enough for the mass market? — gave him a search image that revealed the value of technologies sitting in plain sight, visible to everyone but recognized by almost no one.
+
+No theory, no search image. And without a search image, you can't see the resources, technologies, and opportunities right in front of you. The most important thing a strategy leader can do isn't commissioning more analysis or collecting more data — it's helping the organization formulate the problems and compose the theories that determine what it can even perceive.
+
+This also explains why some executives walk into the same market disruption and see existential threat while others see the opportunity of a lifetime. The difference isn't information. It's theory.
+
+Takeaway for strategy leaders: If your strategy process is dominated by analysis, reporting, and presentation of facts, you may be missing the generative act entirely. The question is whether any process you have creates genuine time, space, and expectations for people to compose and debate theories of strategic value creation.
+
+2. Rational confidence
+
+Zenger shared a concept he's currently developing with Timo Ehrig: rational confidence. In a world that rightly warns against overconfidence, how does a strategist know when it's rational to commit?
+
+"You're rationally confident when you have invited and listened to all counter-theories — and you're convinced that every counter-argument rests on weaker assumptions and logic than your own. And whatever evidence is available to you at this moment in time aligns with your assumptions."
+Those evaluating strategic theories should be probing the theory itself — testing whether its premises are stronger than those of its critics. That's what separates rational confidence from mere conviction.
+
+What rational confidence adds is a standard for the moment of commitment — a way to distinguish between a leadership team that has genuinely tested its theory and one that has simply run out of time to debate. Most strategy processes produce a decision. Rational confidence produces a decision you can defend under pressure, because you know which assumptions it rests on and why the alternatives rest on weaker ones.
+
+Fred Gluck argued in 1980 that strategy fundamentally requires high-quality thinking, high-quality debate, and high-quality decision-making — process is optional, needed only to serve those three. Rational confidence gives that insight a method.
+
+Takeaway for strategy leaders: The quality of debate in the strategy room should be measured by the quality of theoriesbeing tested, not the quality of analyses being presented. Push your teams to articulate their causal beliefs, identify their weakest assumptions, and actively invite counter-theories. This is in part what Zenger implies by being a "value scientist."
+
+3. Corporate theory as a carrier of strategic culture
+
+The CEOs I described at the opening — Huang, Ek, Niccol — do something beyond composing a corporate theory. They teach it. As mentioned, Huang uses the GTC stage to make the reasoning process visible, so that people throughout Nvidia can derive coherent decisions from shared premises. Ek built Spotify's theory into the language and operating rhythm of the organization. Niccol's first act was to give Starbucks's theory a name clear enough that every manager and barista could internalize it.
+
+I shared this observation with Zenger — that the most effective CEOs are corporate theorists whose real impact isn't the theory itself but the way of thinking it instills. He pointed to Steve Jobs and Disney as cases where a corporate theory shaped not just strategic action but how the entire organization reasoned about problems.
+
+When a CEO communicates a corporate theory effectively, it doesn't just tell people what the strategy is. It teaches them how to think about problems in a way consistent with the organization's direction. I have called this strategic culture (LinkedIn, Medium, Substack): a shared approach to how an organization makes sense of uncertainty, frames problems, and identifies value.
+
+Strategic culture is different from ordinary culture and from simple strategic alignment. An organization can be aligned — everyone knows the strategy — without having a shared way of thinking about strategic problems. When strategic culture is present, a product leader facing an ambiguous market signal can reason from the same premises the CEO would use, without waiting for direction. She asks the same kinds of questions, applies the same causal logic, weighs the same tradeoffs — not because she was told the answer, but because she's internalized the theory well enough to derive one. When strategic culture is absent, the same leader either escalates or guesses, and strategic coherence depends entirely on the CEO's bandwidth. The difference shows up most under uncertainty, when the strategy provides no ready answer and people must reason from principles rather than follow a plan.
+
+Huang's theory — that accelerated computing will become the foundation of all computing — isn't just a strategic direction. It's a way of evaluating every opportunity the company encounters. When a product team considers entering a new domain, the theory tells them what questions to ask: does this domain have parallelizable workloads? Can our full-stack approach create integration advantages here? Will owning the platform layer compound our position? The theory doesn't dictate the answer, but it dictates the reasoning. That's the difference between alignment and culture.
+
+A corporate theory, effectively communicated, reduces the need for top-down direction because people can derivecoherent decisions from shared principles. It creates what Gulati, in our earlier conversation (LinkedIn, Medium, Substack), called "freedom within a framework" — strategic guardrails that enable rather than constrain distributed boldness. The theory and the culture become self-reinforcing: a clear theory creates a shared way of thinking, and a shared way of thinking generates strategies consistent with the theory, even at the edges of the organization.
+
+Takeaway for strategy leaders: Ask whether your CEO has an articulated corporate theory — and whether it's functioning as a carrier of strategic culture. If not, helping the CEO develop and communicate one may be the single highest-leverage thing a strategy leader can do. The goal isn't a strategy document but a way of thinking about value that permeates how the organization thinks, debates, and decides.
+
+The Strategy Leader as Value Scientist
+
+What does it mean, concretely, to be what Zenger calls a value scientist?
+
+It means building the organizational capacity to theorize — to compose the causal beliefs that determine what the organization can see and what remains invisible. It means cultivating the discipline of rational confidence — testing those theories against the strongest counter-arguments available, so that commitment rests on the strength of premises rather than the exhaustion of debate. And it means making the CEO's theory legible enough to become a shared way of thinking — a strategic culture that lets people throughout the organization reason from the same principles.
+
+My conversation with Zenger reinforced something I often say to strategy leaders: your most important job is not producing answers. It's curating the conditions for high-quality strategic thinking and debate. When analysis and answers become the primary output of a strategy function, they can crowd out the harder, more generative work — grappling with how your organization uniquely creates value, what you believe about the future that others don't, and ultimately what kind of company you are. These aren't questions analysis can settle. They require the kind of theorizing Zenger describes.
+
+As a trained engineer married to a historian of science and knowledge, I have a particular appreciation for why this is hard. Applying the scientific method to strategy is not an algorithm you run. It depends on the human — on creativity, insight, mental models, and a capacity for causal reasoning that runs back through centuries of thinking about how the mind produces knowledge. Aristotle, Kant, and Peirce weren't studying strategy, but they were studying the same faculty Zenger argues strategists must develop. The craft of strategy — the art and science of it — lives principally in that faculty, less than in any framework or process.
+
+And this is where theory and choices reinforce each other. High-quality, coherent strategic choices are powerful. But the theory that generates them is more powerful still, because it compounds. Choices clarify the theory at a moment in time; the theory equips leaders to make coherent choices of their own, even at the edges of the organization — what I explored with Charles Conn and Rob McLean in our conversation about strategy at the edge (LinkedIn, Medium, Substack). The questions this raises are worth sitting with: how well do you really develop theories for your business? How causal are they? Do you understand, deeply, how your business creates value? Are you challenging your teams to get beyond the first few layers of thinking? And when you bring AI into your strategy process, is it in service of high-quality strategic thinking — or does it risk undercutting it?
+
+This is why Jensen Huang — the CEO of one of the most valuable companies in the world — spends some of his most precious time each year not just stating his theory for Nvidia but teaching it. Explaining how the pieces connect. Showing people how to reason from the same premises. Leading by teaching, so that others can lead, especially when facing the opportunities of uncertainty.
+
+A note on the artwork
+
+Minimize image
+Edit image
+Delete image
+
+
+Minimize image
+Edit image
+Delete image
+
+
+"Some say they see poetry in my paintings; I see only science." 
+— Georges Seurat
+
+The image accompanying this post is not the painting most people know. It is one of more than seventy preparatory studies — oil sketches and drawings — that Georges Seurat made before completing A Sunday Afternoon on the Island of La Grande Jatte, the monumental six-by-ten-foot canvas that would make him the leader of a new movement and reshape the trajectory of modern art. This study — the final and largest, now at the Metropolitan Museum — shows the same scene, the same island, many of the same figures. But the method is different. The brushstrokes are loose, diagonal, patchy. The pointillist technique that would define the finished work has not yet arrived. What is present, already, is the theory.
+
+Seurat was not a painter who happened to be interested in science. He understood himself as a scientist working in paint. He studied the chemist Michel Eugène Chevreul's research on how adjacent colors alter each other's appearance. He read the physicist Ogden Rood's Modern Chromatics on optical color mixing. He attended lectures at the Sorbonne by the mathematician Charles Henry on the psychological properties of line and color. In 1884, he and his colleague Paul Signac visited the hundred-year-old Chevreul himself, to pay homage to the man whose research had shaped their practice. From this body of scientific study, Seurat composed what Zenger would recognize as a contrarian belief: that dots of pure color, placed according to the laws of complementary contrast, would combine in the viewer's eye to produce greater luminosity than any mixture on a palette. He called this theory Chromoluminarism, and every decision in his painting was derived from it. Each preparatory study then tested a specific element: how color relationships function at a given scale, how figures hold attention under particular light conditions, what happens when the composition is reorganized. They are not sketches in the romantic sense. They are the Value Lab's third step — experiments guided by a causal theory, designed to test specific hypotheses, revealing which assumptions need revision. The study predicts the masterpiece. The theory generated both.
+
+Where the Impressionists painted from observation and intuition, Seurat composed a causal theory first, derived his method from it, and ran a disciplined experimental program to refine it. The art world could not evaluate what he was doing. Critics were hostile or baffled — Joris-Karl Huysmans dismissed the technique as covering figures in "colored fleas." Pissarro championed him, but others in the Impressionist circle objected to his inclusion in their final exhibition, and the Neo-Impressionists were hung in a separate room. Seurat's theory rested on premises the art world did not share and could not easily evaluate — just as the most unique corporate strategies can attract less analyst coverage and be undervalued by markets that lack the framework to assess them. The strategy hardest to understand was the one that would prove most valuable. Within a generation, Seurat's approach had restructured how artists thought about color, light, and composition, influencing Matisse, the Fauves, and the path toward abstraction.
+
+To go deeper
+
+Todd Zenger, Beyond Competitive Advantage: How to Solve the Puzzle of Sustaining Growth While Creating Value(Harvard Business Review Press, 2016)
+Teppo Felin, Alfonso Gambardella, and Todd Zenger, "Value Lab: A Tool for Entrepreneurial Strategy," Management & Business Review 1, no. 2 (2021)
+Teppo Felin and Todd Zenger, "The Theory-Based View: Economic Actors as Theorists," Strategy Science 2, no. 4 (2017)
+Teppo Felin, Stuart Kauffman, and Todd Zenger, "Resource Origins and Search," Strategic Management Journal 44, no. 6 (2023)
+Todd Zenger, "What Is the Theory of Your Firm?" Harvard Business Review, June 2013
+Appendix: Zenger's Techniques Across the Building Blocks of Strategy
+
+McKinsey’s Building Blocks of Strategy describe twelve universal types of strategy activity spanning strategy design, mobilization, and execution. Zenger's body of work offers specific techniques that enrich many of these blocks — an exercise in the kind of cross-disciplinary modularity I explored in my conversation with Carliss Baldwin (LinkedIn, Medium, Substack). The mapping below is selective, focusing on the blocks where I think his research offers the most distinctive contributions.
+
+Strategy Design
+
+Align on the strategic challenge
+
+Problem formulation as strategic alignment. Zenger's problem-solving perspective (with Nickerson, 2004) argues that the choice of which problem to solve is the most consequential strategic decision. Alignment means agreeing on the right problem, not just the right goals or markets.
+Core problem decomposition. The Value Lab's second conversation transforms beliefs into a core problem and sub-problems — each becoming a strategic challenge in its own right, enabling coordinated search across the organization.
+Assess through multiple lenses
+
+Foresight, insight, and cross-sight. Three distinct lenses for strategic assessment — where the market is heading, what the firm uniquely possesses, and what complementarities others miss.
+Search images as perceptual templates. A firm's theory of value directs attention to resources and opportunities invisible to others (with Felin and Kauffman, 2023). Better theories produce better perception.
+Explore bold value-creating moves
+
+The uniqueness imperative. Unique strategies create the most value, yet organizations naturally gravitate toward those that are easy to explain and evaluate (Litov, Moreton, and Zenger, 2012). The Value Lab's first conversation — articulating contrarian beliefs — is a forcing mechanism for boldness.
+Ownership competence. Three forms of ownership skill (with Foss, Klein, Lien, and Zellweger, 2021): matching competence (choosing what to own), governance competence (structuring how you own it), and timing competence (knowing when to buy, hold, or divest). A more precise vocabulary for M&A and portfolio decisions than standard "strategic fit" analysis.
+Commit to coherent strategic choices
+
+Corporate theory as coherence device. Choices cohere when they derive from a shared theory of how the firm creates value.
+Rational confidence. Commit when every counter-theory rests on weaker assumptions than your own — a more rigorous standard than conviction, and a more courageous one than waiting for certainty.
+The lemons problem in strategy governance. When a firm's strategy is genuinely unique, standard governance mechanisms (stock-based compensation, independent boards, active monitoring) may undermine it by amplifying short-term market pressure (with Benner, 2016). Protecting coherent strategy sometimes requires governance structures that insulate decisions from uninformed market signals.
+Strategy Mobilization
+
+Empower, engage, and govern
+
+Selling the theory. The most valuable strategies are the hardest to explain because they require accepting premises that differ from conventional wisdom. Strategic leaders must make the causal logic explicit enough that leaders can internalize it and make decisions consistent with it — even when the CEO isn't in the room (Beyond Competitive Advantage, Chapter 7).
+Incentive architecture for strategy owners. Large firms' compressed incentive structures systematically drive their most innovative people to competitors and startups (Zenger, 1992, 1994; with Elfenbein and Hamilton, 2010). Ensuring that the leaders who own strategic choices face the right incentives — and that the organization's compensation architecture doesn't quietly undermine its strategic ambitions — is a mobilization challenge Zenger's research illuminates with unusual empirical precision.
+Translate choices into plans and projects
+
+Organizational vacillation. Rather than maintaining permanent ambidextrous structures, organizations may perform better by periodically reorganizing between exploration-oriented and exploitation-oriented designs (with Boumgarden and Nickerson, 2012). An alternative to the standard restructuring playbook.
+Strategy Execution
+
+Test and adapt
+
+Theory-guided experimentation. The Value Lab prescribes three types of theory-guided actions: experiments (tests of specific causal assumptions), shopping for resources (acquiring assets whose value the theory reveals), and searching for solutions (finding answers to specific sub-problems). Each is more targeted than a generic minimum viable product approach. RCT evidence involving hundreds of startups confirms that theory-first approaches outperform standard lean tools (Camuffo et al., 2020, 2024).
+Launch S-curves
+
+Corporate theory as S-curve generator. The theory is designed to be continuously generative, revealing new strategic opportunities as the landscape evolves. Search images enable firms to perceive emerging opportunities others can't see.
+ 
+
+<!-- ARTICLE HTML END -->
+
+            </div>
+        </details>
+    </div>
+    
+    <div class="back-link">
+        <a href="https://www.linkedin.com/newsletters/7258844747895656448/">← Read on LinkedIn</a><br>
+        <a href="https://medium.com/@whitneyzim">← Read on Medium</a><br>
+        <a href="https://substack.com/@whitneydzimmerman">← Read on Substack</a>
+    </div>
+    
+    <script>
+        function getArticleTextWithLinks() {
+            const content = document.getElementById('article-content').cloneNode(true);
+            
+            // Convert links to "text (url)" format
+            const links = content.querySelectorAll('a');
+            links.forEach(link => {
+                const url = link.href;
+                const text = link.textContent;
+                // Only add URL if it's different from the text (not already a bare URL)
+                if (url && !text.includes(url)) {
+                    link.replaceWith(`${text} (${url})`);
+                }
+            });
+            
+            // Get text content, preserving paragraph breaks
+            const paragraphs = content.querySelectorAll('p, h1, h2, h3, h4, li');
+            let text = '';
+            
+            if (paragraphs.length > 0) {
+                paragraphs.forEach(p => {
+                    text += p.textContent.trim() + '\n\n';
+                });
+            } else {
+                text = content.textContent;
+            }
+            
+            return text.trim();
+        }
+        
+        function copyAndOpen(service) {
+            const articleText = getArticleTextWithLinks();
+            const prompt = `Please provide a comprehensive summary of the following article. Preserve the key insights and main arguments. If there are URLs in the text, you may access them for additional context if needed.\n\n---\n\n${articleText}`;
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(prompt).then(() => {
+                // Show success message
+                const status = document.getElementById('status');
+                status.className = 'status success';
+                status.textContent = '✓ Copied to clipboard! Paste in the new tab.';
+                
+                // Open the appropriate service
+                const urls = {
+                    claude: 'https://claude.ai/new',
+                    chatgpt: 'https://chat.openai.com/',
+                    gemini: 'https://gemini.google.com/app'
+                };
+                
+                window.open(urls[service], '_blank');
+            }).catch(err => {
+                alert('Could not copy to clipboard. Please try again.');
+                console.error(err);
+            });
+        }
+    </script>
+</body>
+</html>
